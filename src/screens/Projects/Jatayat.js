@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React  from 'react';
 import '../../styles/Jatayat.css'
-import { Route } from 'react-router-dom';
 import face from '../../assets/Jatayat face.png';
 import sticker1 from '../../assets/sticker1.png';
 import sticker2 from '../../assets/sticker2.png';
@@ -13,9 +12,9 @@ import Template from './Template.js';
 function Jatayat() {
     window.scrollTo(0,0);
 
-    const overviewScroll = () => {
-        window.scrollTo(0, 1000);
-    }
+    // const overviewScroll = () => {
+    //     window.scrollTo(0, 1000);
+    // }
 
     return(
         <div>
