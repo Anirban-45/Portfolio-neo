@@ -22,7 +22,7 @@ function Navbar() {
                         Anirban
                     </div>
                     <div className={`${"navbar-item"} ${menuOpen? "" : "is-menu" }`}>
-                        <NavLink to="/Portfolio" activeClassName="navlinks" onClick={toggleHandler}>Home</NavLink>
+                        <NavLink to="/" activeClassName="navlinks" onClick={toggleHandler}>Home</NavLink>
                         <NavLink to="/about" activeClassName="navlinks" onClick={toggleHandler}>About</NavLink>
                         <NavLink to="/work" activeClassName="navlinks" onClick={toggleHandler}>Work</NavLink>
                         <NavLink to="/contact" activeClassName="navlinks" onClick={toggleHandler}>Contact</NavLink>
