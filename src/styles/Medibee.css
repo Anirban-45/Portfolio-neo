@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.mhero {
+  padding-top: 120px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+@media only screen and (max-width: 768px) {
+  .mhero {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .mhero {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.research {
+  width: 800px;
+  margin: auto;
+}
+
+.des-def .user-journey {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.des-def .user-journey img {
+  width: 60vw;
+}
+@media only screen and (max-width: 768px) {
+  .des-def .user-journey img {
+    width: 69vw;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .des-def .user-journey img {
+    width: 86vw;
+  }
+}
+.des-def .typo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.des-def .typo img {
+  width: 56vw;
+}
+@media only screen and (max-width: 768px) {
+  .des-def .typo img {
+    width: 68vw;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .des-def .typo img {
+    width: 86vw;
+  }
+}

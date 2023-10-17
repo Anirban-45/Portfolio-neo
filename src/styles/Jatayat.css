@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.faceimj {
+  padding-top: 90px;
+  width: 100%;
+}
+
+.jhero {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+@media only screen and (max-width: 1024px) {
+  .jhero {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .jhero {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .jhero {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.research {
+  width: 800px;
+  margin: auto;
+}
+.research .per {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.research .per img {
+  width: 85%;
+}
+
+.inter {
+  width: 800px;
+  margin: auto;
+}
+.inter .finding {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 426px) {
+  .inter .finding {
+    flex-direction: column;
+  }
+}
+.inter .finding .finding-1 {
+  width: 38vw;
+}
+@media only screen and (max-width: 1024px) {
+  .inter .finding .finding-1 {
+    width: 35vw;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .inter .finding .finding-1 {
+    width: 100%;
+  }
+}
+.inter .finding .finding-2 {
+  width: 38vw;
+}
+@media only screen and (max-width: 1024px) {
+  .inter .finding .finding-2 {
+    width: 35vw;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .inter .finding .finding-2 {
+    width: 100%;
+  }
+}
+
+.des-def {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.des-def .wireframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.des-def .wireframe .w1 {
+  width: 50vw;
+}
+.des-def .sticker-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.des-def .sticker-board .s1 {
+  width: 35.5vw;
+}
+@media only screen and (max-width: 768px) {
+  .des-def .sticker-board .s1 {
+    width: 40.6vw;
+  }
+}
+.des-def .sticker-board .s2 {
+  width: 43.75vw;
+}
+@media only screen and (max-width: 768px) {
+  .des-def .sticker-board .s2 {
+    width: 50vw;
+  }
+}
+.des-def .proto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.des-def .proto button {
+  font-family: "DM Sans", sans-serif;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  margin: 0;
+  border-width: 0;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  background-color: #EFC958;
+  transition: all 0.4s ease-in-out;
+}
+.des-def .proto button:hover {
+  background-color: #f4a111;
+}

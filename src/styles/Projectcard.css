@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.pcard-body {
+  width: 70vw;
+  max-width: 1085px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #F3F0E8;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 3px #b2b2b2;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .pcard-body {
+    flex-direction: column;
+    width: 60vw;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .pcard-body {
+    flex-direction: column;
+    width: 80vw;
+  }
+}
+.pcard-body img {
+  width: 500px;
+  border-radius: 15px 0 0 15px;
+}
+@media only screen and (max-width: 1024px) {
+  .pcard-body img {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .pcard-body img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+}
+.pcard-body .layer .nimage {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 1024px) {
+  .pcard-body .layer .nimage {
+    height: 35px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .pcard-body .layer .nimage {
+    height: 35px;
+    margin-top: 10px;
+  }
+}
+.pcard-body .layer .nimage .old-project {
+  display: none;
+}
+.pcard-body .layer .nimage .new-project {
+  width: 50px;
+  padding-right: 30px;
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@media only screen and (max-width: 1024px) {
+  .pcard-body .layer .nimage .new-project {
+    width: 35px;
+    padding-right: 20px;
+  }
+}
+.pcard-body .layer .access {
+  padding: 10px 50px 90px 50px;
+}
+@media only screen and (max-width: 1024px) {
+  .pcard-body .layer .access {
+    padding: 10px 40px 40px 40px;
+  }
+}
+.pcard-body .layer .access .pcard-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1024px) {
+  .pcard-body .layer .access .pcard-title {
+    font-size: 22px;
+  }
+}
+.pcard-body .layer .access .pcard-desc {
+  font-size: 18px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 1024px) {
+  .pcard-body .layer .access .pcard-desc {
+    font-size: 16px;
+  }
+}
+.pcard-body .layer .access .viewbtn {
+  font-family: "DM Sans", sans-serif;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  margin-top: 20px;
+  border-width: 0;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  background-color: #EFC958;
+  transition: all 0.4s ease-in-out;
+}
+@media only screen and (max-width: 1024px) {
+  .pcard-body .layer .access .viewbtn {
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 8px;
+    width: 120px;
+    height: 32px;
+  }
+}
+.pcard-body .layer .access .viewbtn:hover {
+  background-color: #f4a111;
+}

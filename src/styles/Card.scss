@@ -1,0 +1,77 @@
+@import "./variables.scss";
+
+.card-body{
+    width: 350px;
+    box-shadow: 0 0 3px 2px grey;
+    font-family: $font-main;
+    color: $font-primary;
+    background: #264653;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    @include flex-align;
+    flex-direction: column;
+    @media only screen and (max-width: 1024px){
+        width: 250px;
+
+    }
+    @media only screen and (max-width: 768px){
+        width: 330px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .icon-holder{
+        background: #F1D1B5;
+        width: 60px;
+        height: 60px;
+        margin-top: 30px;
+        margin-bottom: -10px;
+        border-radius: 30px;
+        @media only screen and (max-width: 768px){
+            margin-top: -8px;
+            margin-right: 15px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    img{
+        width: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+        @media only screen and (max-width: 768px){
+            width: 30px;
+        }
+
+    }
+
+    .card-title{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        @media only screen and (max-width: 1024px){
+            font-size: 18px;
+        }
+        @media only screen and (max-width: 768px){
+            margin-top: 15px;
+            font-size: 18px;
+        }
+    }
+
+    .card-desc{
+        font-size: 16px;
+        font-weight: 500;
+        @include margin-lr(30px);
+        text-align: center;
+        @media only screen and (max-width: 1024px){
+            font-size: 14px;
+        }
+        @media only screen and (max-width: 768px){
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,187 @@
+@import "./variables.scss";
+
+.about-body{
+
+    font-family: $font-main;
+
+    .about-top{
+        padding-top: 180px;
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media only screen and (max-width: 2560px){
+            margin: auto;
+        }
+        @media only screen and (max-width: 1600px){
+            @include margin-lr(150px);
+        }
+        @media only screen and (max-width: 1300px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        .top-text{
+            width: 500px;
+            line-height: 26px;
+
+            @media only screen and (max-width: 426px){
+                width: 350px;
+            }
+        }
+
+
+        div{
+            margin-bottom: 19px;
+        }
+
+        .face{
+            width: 600px;
+            @media only screen and (max-width: 1024px) {
+                width: 500px;
+            }
+            @media only screen and (max-width: 426px){
+                width: 350px;
+            }
+
+        }
+    }
+
+    .mid-text{
+        background-color: #264653;
+        width: 100%;
+        margin-top: 40px;
+        padding: 40px 0px 40px 0px;
+        margin-bottom: 40px;
+        line-height: 26px;
+        div{
+            margin-bottom: 19px;
+            color: #fff;
+        }
+        .mid-par{
+            @media only screen and (max-width: 2560px){
+                max-width: 1200px;
+                margin: auto;
+            }
+            @media only screen and (max-width: 1600px){
+                @include margin-lr(150px);
+            }
+            @media only screen and (max-width: 768px){
+                @include margin-lr(135px);
+            }
+            @media only screen and (max-width: 426px){
+                @include margin-lr(40px);
+            }
+
+            .mid-title{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                img{
+                    width: 40px;
+                    padding-right: 15px;
+                }
+            }
+        }
+    }
+
+    .bottom-text{
+        max-width: 1200px;
+        display: flex;
+        @media only screen and (max-width: 2560px){
+            margin: auto;
+        }
+        @media only screen and (max-width: 1600px){
+            @include margin-lr(150px);
+        }
+        @media only screen and (max-width: 1028px){
+            display: flex;
+            justify-content: space-between;
+        }
+        @media only screen and (max-width: 768px){
+            display: flex;
+            flex-direction: column;
+        }
+        @media only screen and (max-width: 426px){
+            display: flex;
+            flex-direction: column;
+            @include margin-lr(40px);
+        }
+
+
+        .bottom-left{
+            width: 500px;
+            @media only screen and (max-width: 1028px){
+                width: 320px;
+            }
+            @media only screen and (max-width: 768px){
+                width: 350px;
+            }
+
+            .e-title, .e-title-sp{
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            .e-title-sp{
+                margin-top: 20px;
+            }
+
+            .ocu{
+                font-weight: 700;
+                font-style: italic;
+                color: #2C8DD3;
+            }
+
+            .eyes{
+                height: 150px;
+                width: 360px;
+                margin-top: 30px;
+                @media only screen and (max-width: 1028px){
+                    width: 320px;
+                }
+                @media only screen and (max-width: 768px){
+                    display: none;
+                }
+            }
+        }
+
+        .bottom-right{
+            width: 500px;
+            @media only screen and (max-width: 1028px){
+                width: 320px;
+            }
+            @media only screen and (max-width: 768px){
+                width: 350px;
+            }
+
+            .edu{
+                @media only screen and (max-width: 768px){
+                    margin-top: 50px;
+                }
+            }
+
+            .school, .college, .uni{
+                font-weight: 700;
+                font-style: italic;
+                span{
+                    font-weight: 400;
+                    font-style: normal;
+                }
+            }
+
+            .college, .school{
+                margin-top: 20px;
+            }
+
+            .design{
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+    }
+}

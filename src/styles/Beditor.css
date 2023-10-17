@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.crop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 90px;
+}
+@media only screen and (max-width: 426px) {
+  .crop {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.crop .faceim {
+  width: 100%;
+}
+@media only screen and (max-width: 426px) {
+  .crop .faceim {
+    width: 140%;
+  }
+}
+
+.bhero {
+  padding-top: 20px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+@media only screen and (max-width: 768px) {
+  .bhero {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .bhero {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.heding {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #B83F3F;
+}
+
+.solve {
+  background: #264653;
+  font-family: "DM Sans", sans-serif;
+  margin: 40px 0px;
+  padding: 30px;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .solve {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.solve-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-start;
+}
+.solve-title img {
+  width: 40px;
+  margin-right: 15px;
+}
+.solve-title span {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.des-def table {
+  border: 1px solid;
+  width: 800px;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .des-def table {
+    width: 785px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .des-def table {
+    width: 525px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .des-def table {
+    width: 365px;
+  }
+}
+.des-def td {
+  border: 1px solid;
+  padding: 5px 10px;
+}
+.des-def img {
+  width: 100%;
+}
+.des-def .proto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.des-def .proto button {
+  font-family: "DM Sans", sans-serif;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  margin: 0;
+  border-width: 0;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  background-color: #EFC958;
+  transition: all 0.4s ease-in-out;
+}
+.des-def .proto button:hover {
+  background-color: #f4a111;
+}

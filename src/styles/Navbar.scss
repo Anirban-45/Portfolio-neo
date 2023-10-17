@@ -1,0 +1,133 @@
+@import "variables.scss";
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $primary;
+    font-family: $font-main;
+    font-weight: 700;
+    position: fixed;
+
+    &-container{
+        color: $font-primary;
+        background-color: $primary;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media only screen and (max-width: 768px){
+            padding-bottom: 25px;
+        }
+
+        .navbar-logo{
+            @include flex-align();
+            margin-left: 50px;
+            @media only screen and (max-width: 768px){
+                padding-top: 20px;
+                margin-left: 50px;
+            }
+
+            img{
+                width: 45px;
+                margin-right: 15px;
+            }
+        }
+
+        .navbar-item{
+            padding: 30px;
+            @media only screen and (max-width: 768px){
+                display: flex;
+                z-index: -1;
+                top: 90px;
+                right: 0;
+                left: 0;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: fixed;
+                height: 180px;
+                width: 100vw;
+                background: $primary;
+                padding: 0;
+                transition: all ease-in-out 0.4s;
+            }
+
+            a{
+                margin: 1.5rem;
+                text-decoration: none;
+                color: white;
+                padding: 8px 18px;
+                border-radius: 25px;
+                position: relative;
+                @media only screen and (max-width: 768px){
+                    margin: 0px;
+                    z-index: -1;
+                }
+
+                &:active{
+                    @media only screen and (max-width: 768px){
+                        padding: 8px 50vw;
+                        background-color: $secondary;
+                        transition: all ease-in-out 0.4s;
+                    }
+                }
+
+                &::after{
+                    content: '';
+                    position: absolute;
+                    left: 0%;
+                    bottom: 8%;
+                    width: 100%;
+                    height: 3px;
+                    transition: all ease-in-out 0.35s;
+                    background: $secondary;
+                    transform: scaleX(0);
+                    @media only screen and (max-width: 768px){
+                        display: none;
+                    }
+                }
+
+                &:hover::after{
+                    left: 2%;
+                    transform: scaleX(0.4);
+                }
+            }
+
+
+        }
+        .is-menu{
+            @media only screen and (max-width: 768px){
+                transform: translate(0,-140%);
+                z-index: -1;
+            }
+            a{
+                @media only screen and (max-width: 768px){
+                    z-index: -1;
+                }
+            }
+        }
+        .menu-toggle{
+            display: none;
+            @media only screen and (max-width: 768px){
+                display: block;
+                margin-top: 20px;
+                cursor: pointer;
+                margin-right: 50px;
+                transition: all ease-in-out 0.35s;
+            }
+
+        }
+    }
+}
+
+.active{
+    padding: 8px 18px;
+    border-radius: 25px;
+    background-color: $secondary;
+    transition: all ease-in-out 0.35s;
+    @media only screen and (max-width: 768px){
+        background-color: inherit;
+    }
+}

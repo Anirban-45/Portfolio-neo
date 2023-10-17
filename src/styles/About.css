@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.about-body {
+  font-family: "DM Sans", sans-serif;
+}
+.about-body .about-top {
+  padding-top: 180px;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 2560px) {
+  .about-body .about-top {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .about-body .about-top {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .about-body .about-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+.about-body .about-top .top-text {
+  width: 500px;
+  line-height: 26px;
+}
+@media only screen and (max-width: 426px) {
+  .about-body .about-top .top-text {
+    width: 350px;
+  }
+}
+.about-body .about-top div {
+  margin-bottom: 19px;
+}
+.about-body .about-top .face {
+  width: 600px;
+}
+@media only screen and (max-width: 1024px) {
+  .about-body .about-top .face {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .about-body .about-top .face {
+    width: 350px;
+  }
+}
+.about-body .mid-text {
+  background-color: #264653;
+  width: 100%;
+  margin-top: 40px;
+  padding: 40px 0px 40px 0px;
+  margin-bottom: 40px;
+  line-height: 26px;
+}
+.about-body .mid-text div {
+  margin-bottom: 19px;
+  color: #fff;
+}
+@media only screen and (max-width: 2560px) {
+  .about-body .mid-text .mid-par {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .about-body .mid-text .mid-par {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-body .mid-text .mid-par {
+    margin-left: 135px;
+    margin-right: 135px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .about-body .mid-text .mid-par {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+.about-body .mid-text .mid-par .mid-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-body .mid-text .mid-par .mid-title img {
+  width: 40px;
+  padding-right: 15px;
+}
+.about-body .bottom-text {
+  max-width: 1200px;
+  display: flex;
+}
+@media only screen and (max-width: 2560px) {
+  .about-body .bottom-text {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .about-body .bottom-text {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+@media only screen and (max-width: 1028px) {
+  .about-body .bottom-text {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-body .bottom-text {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .about-body .bottom-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+.about-body .bottom-text .bottom-left {
+  width: 500px;
+}
+@media only screen and (max-width: 1028px) {
+  .about-body .bottom-text .bottom-left {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-body .bottom-text .bottom-left {
+    width: 350px;
+  }
+}
+.about-body .bottom-text .bottom-left .e-title, .about-body .bottom-text .bottom-left .e-title-sp {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-body .bottom-text .bottom-left .e-title-sp {
+  margin-top: 20px;
+}
+.about-body .bottom-text .bottom-left .ocu {
+  font-weight: 700;
+  font-style: italic;
+  color: #2C8DD3;
+}
+.about-body .bottom-text .bottom-left .eyes {
+  height: 150px;
+  width: 360px;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 1028px) {
+  .about-body .bottom-text .bottom-left .eyes {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-body .bottom-text .bottom-left .eyes {
+    display: none;
+  }
+}
+.about-body .bottom-text .bottom-right {
+  width: 500px;
+}
+@media only screen and (max-width: 1028px) {
+  .about-body .bottom-text .bottom-right {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-body .bottom-text .bottom-right {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-body .bottom-text .bottom-right .edu {
+    margin-top: 50px;
+  }
+}
+.about-body .bottom-text .bottom-right .school, .about-body .bottom-text .bottom-right .college, .about-body .bottom-text .bottom-right .uni {
+  font-weight: 700;
+  font-style: italic;
+}
+.about-body .bottom-text .bottom-right .school span, .about-body .bottom-text .bottom-right .college span, .about-body .bottom-text .bottom-right .uni span {
+  font-weight: 400;
+  font-style: normal;
+}
+.about-body .bottom-text .bottom-right .college, .about-body .bottom-text .bottom-right .school {
+  margin-top: 20px;
+}
+.about-body .bottom-text .bottom-right .design {
+  font-size: 18px;
+  font-weight: 700;
+}

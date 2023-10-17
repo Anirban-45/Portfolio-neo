@@ -1,0 +1,46 @@
+@import "./variables.scss";
+
+.Ccontainer{
+    @include flex-align;
+    flex-direction: column;
+    padding-top: 35px + 90px;
+
+    .top-welcome{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 505px;
+        @media only screen and (max-width: 426px){
+            width: 330px;
+        }
+
+
+        img{
+            width: 70px;
+            margin-right: 20px;
+            @media only screen and (max-width: 426px){
+                width: 60px;
+                margin-right: 10px;
+            }
+        }
+
+        .top-item{
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+
+            #top-label{
+                font-family: $font-main;
+                font-size: 30px;
+                font-weight: 500;
+                text-align: left;
+                @media only screen and (max-width: 426px){
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+
+}

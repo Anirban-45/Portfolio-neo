@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.Cform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Cform div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.Cform label {
+  font-family: "DM Sans", sans-serif;
+  margin: 0px 5px 5px 5px;
+}
+.Cform input {
+  font-family: "DM Sans", sans-serif;
+  width: 500px;
+  border: #9a9c9e 0.5px solid;
+  box-sizing: border-box;
+  border-radius: 0px;
+  padding: 10px;
+}
+@media only screen and (max-width: 426px) {
+  .Cform input {
+    width: 320px;
+  }
+}
+.Cform textarea {
+  font-family: "DM Sans", sans-serif;
+  width: 480px;
+  height: 200px;
+  border: #9a9c9e 0.5px solid;
+  padding: 10px;
+  border-radius: 0px;
+}
+@media only screen and (max-width: 426px) {
+  .Cform textarea {
+    width: 300px;
+  }
+}
+.Cform .subbutton {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+  border-width: 0;
+  padding: 5px;
+  background-color: #EFC958;
+}

@@ -1,0 +1,25 @@
+@import "variables.scss";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: $background;
+}
+
+body::-webkit-scrollbar{
+    width: .5em;
+    position: absolute;
+    z-index: 9999;
+}
+
+body::-webkit-scrollbar-track{
+    background: #F1FAEE;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #534666;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #433656;
+}

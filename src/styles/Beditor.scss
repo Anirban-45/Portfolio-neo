@@ -1,0 +1,125 @@
+@import "variables.scss";
+
+
+.crop {
+    @include flex-align;
+    width: 100%;
+    padding-top: 90px;
+
+    @media only screen and (max-width: 426px) {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+.crop .faceim {
+    width: 100%;
+
+    @media only screen and (max-width: 426px) {
+        width: 140%;
+    }
+}
+
+.bhero {
+    padding-top: 20px;
+    @include margin-lr(160px);
+
+    @media only screen and (max-width: 768px) {
+        @include margin-lr(120px);
+    }
+
+    @media only screen and (max-width: 426px) {
+        @include margin-lr(30px);
+    }
+}
+
+.heding {
+    font-family: $font-body;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: $font-color4;
+}
+
+.solve {
+    background: $tertiary;
+    font-family: $font-main;
+    margin: 40px 0px;
+    padding: 30px;
+    color: white;
+
+    @media only screen and (max-width: 768px) {
+        @include margin-lr(0px);
+    }
+
+    &-title {
+        @include flex-align;
+        justify-content: flex-start;
+
+        img {
+            width: 40px;
+            margin-right: 15px;
+        }
+
+        span {
+            font-size: 28px;
+            font-weight: 600;
+        }
+    }
+
+}
+
+
+
+.des-def {
+    table {
+        border: 1px solid;
+        width: 800px;
+        text-align: center;
+        border-collapse: collapse;
+        border-spacing: 0;
+
+        @media only screen and (max-width: 1024px) {
+            width: 785px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            width: 525px;
+        }
+
+        @media only screen and (max-width: 426px) {
+            width: 365px;
+        }
+    }
+
+    td {
+        border: 1px solid;
+        padding: 5px 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .proto {
+        @include flex-align;
+
+        button {
+            font-family: $font-main;
+            width: 150px;
+            height: 40px;
+            border-radius: 25px;
+            margin: 0;
+            border-width: 0;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 10px;
+            background-color: $button;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+                background-color: #f4a111;
+            }
+        }
+    }
+}

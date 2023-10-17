@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F3F0E8;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+  position: absolute;
+  z-index: 9999;
+}
+
+body::-webkit-scrollbar-track {
+  background: #F1FAEE;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #534666;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #433656;
+}

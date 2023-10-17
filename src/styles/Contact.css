@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.Ccontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 125px;
+}
+.Ccontainer .top-welcome {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 505px;
+}
+@media only screen and (max-width: 426px) {
+  .Ccontainer .top-welcome {
+    width: 330px;
+  }
+}
+.Ccontainer .top-welcome img {
+  width: 70px;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 426px) {
+  .Ccontainer .top-welcome img {
+    width: 60px;
+    margin-right: 10px;
+  }
+}
+.Ccontainer .top-welcome .top-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.Ccontainer .top-welcome .top-item #top-label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+}
+@media only screen and (max-width: 426px) {
+  .Ccontainer .top-welcome .top-item #top-label {
+    font-size: 25px;
+  }
+}

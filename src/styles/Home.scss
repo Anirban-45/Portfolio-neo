@@ -1,0 +1,622 @@
+@import "variables.scss";
+
+.container{
+    @include margin-lr(120px);
+    padding-top: 90px;
+    @media only screen and (max-width: 1024px) {
+        @include margin-lr(80px);
+    }
+    @media only screen and (max-width: 426px) {
+        @include margin-lr(30px);
+    }
+
+    &-front{
+        @include flex-align();
+        @media only screen and (max-width: 426px){
+            flex-direction: column;
+        }
+
+        .container-mobile{
+            display: none;
+            @media only screen and (max-width: 426px){
+                width: 90vw;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                @include flex-align;
+
+            }
+
+            .mb-image{
+                display: none;
+                width: 100px;
+                height: 100px;
+                @media only screen and (max-width: 426px){
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 20px;
+                }
+            }
+
+            .main-pg-sm {
+                font-size: 40px;
+                font-family: $font-body;
+                font-weight: 600;
+                display: none;
+                @media only screen and (max-width: 768px){
+                    display: block;
+                    font-size: 22px;
+                }
+
+                .colored-text-1{
+                    @media only screen and (max-width: 768px){
+                        color: $font-color1;
+                    }
+                    &:hover{
+                        color: $font-color1;
+                    }
+                }
+
+                .colored-text-2{
+                    @media only screen and (max-width: 768px){
+                        color: $font-color2;
+                    }
+                    &:hover{
+                        color: $font-color2;
+                    }
+                }
+            }
+        }
+
+        .fancy-shape{
+            @include flex-align;
+            flex-direction: column;
+            margin-right: 30px;
+            @media only screen and (max-width: 1024px){
+                margin-right: 20px;
+            }
+            @media only screen and (max-width: 426px){
+                flex-direction: row;
+            }
+
+            .lineshape{
+                width: 3.5px;
+                height: 550px;
+                background-color: $primary;
+                @media only screen and (max-width: 1024px){
+                    height: 480px;
+                }
+                @media only screen and (max-width: 426px){
+                    height: 3.5px;
+                    width: 395px;
+                }
+            }
+
+            .circleshape{
+                width: 12px;
+                height: 12px;
+                border-radius: 15px;
+                background-color: $primary;
+            }
+        }
+
+
+
+        .container-text{
+            font-family: $font-body;
+            font-weight: 600;
+            align-self: center;
+            margin-right: 80px;
+            @media only screen and (max-width: 1024px){
+                margin-right: 20px;
+            }
+            @media only screen and (max-width: 768px){
+                margin-right: 0px;
+            }
+            @media only screen and (max-width: 426px){
+                margin-top: 10px;
+                width: 380px;
+            }
+
+            .main-pg {
+                font-size: 40px;
+                @media only screen and (max-width: 1024px){
+                    font-size: 28px;
+                }
+                @media only screen and (max-width: 768px){
+                    font-size: 25px;
+                }
+                @media only screen and (max-width: 426px){
+                    display: none;
+                }
+
+                .colored-text-1{
+                    @media only screen and (max-width: 768px){
+                        color: $font-color1;
+                    }
+                    &:hover{
+                        color: $font-color1;
+                    }
+                }
+
+                .colored-text-2{
+                    @media only screen and (max-width: 768px){
+                        color: $font-color2;
+                    }
+                    &:hover{
+                        color: $font-color2;
+                    }
+                }
+            }
+
+
+            p.second-pg-1{
+                font-size: 22px;
+                margin-bottom: 10px;
+                @media only screen and (max-width: 1024px){
+                    font-size: 19px;
+                }
+                @media only screen and (max-width: 768px){
+                    font-size: 18px;
+                }
+            }
+
+            p.second-pg-2{
+                font-size: 28px;
+                margin-top: 0px;
+                @media only screen and (max-width: 1024px){
+                    font-size: 22px;
+                }
+                @media only screen and (max-width: 768px){
+                    font-size: 20px;
+                }
+
+                .colored-text-3{
+                    &:hover{
+                        color: $font-color3;
+                    }
+                }
+
+                .colored-text-4{
+                    &:hover{
+                        color: $font-color4;
+                    }
+                }
+            }
+
+            p.desc-pg-1, .desc-pg-2{
+                width: 480px;
+                line-height: 25px;
+                font-weight: 450;
+                @media only screen and (max-width: 1024px){
+                    width: 420px;
+                    font-size: 14px;
+                }
+                @media only screen and (max-width: 768px){
+                    margin-right: 0px;
+                    font-size: 14px;
+                }
+                @media only screen and (max-width: 426px){
+                    width: 380px;
+                    margin-right: 0px;
+                    font-size: 13px;
+                }
+            }
+
+            .colored-text-5{
+                color: $font-color5;
+            }
+        }
+
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius: 130px;
+            @media only screen and (max-width: 1024px){
+                width: 200px;
+                height: 200px;
+                border-radius: 100px;
+            }
+            @media only screen and (max-width: 768px){
+                display: none;
+            }
+        }
+    }
+    .layer-text{
+        font-family: $font-head;
+        font-weight: 700;
+        font-size: 35px;
+        margin-top: 60px;
+        @media only screen and (max-width: 1024px){
+            font-size: 35px;
+            font-weight: 700;
+        }
+        @media only screen and (max-width: 426px) {
+            margin-top: 30px;
+            font-size: 28px;
+            font-weight: 600;
+        }
+    }
+
+    .work-layer{
+        @include flex-alignsb;
+        align-items: flex-end;
+        margin-top: 28px;
+
+        .browse{
+            margin-bottom: 6px;
+            width: 150px;
+            height: 35px;
+            border-radius: 25px;
+            margin-top: 20px;
+            border-width: 0;
+            padding: 5px;
+            background-color: $button;
+            transition: all 0.4s ease-in-out;
+            font-family: $font-main;
+            &:hover{
+                background-color: #f4a111;
+            }
+        }
+    }
+
+    &-card{
+        @include flex-align;
+        justify-content: space-between;
+
+        @media only screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .projs{
+        @include flex-alignsb;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        @media only screen and (max-width: 768px) {
+            @include flex-align;
+            flex-direction: column;
+        }
+
+        .view-1{
+            width: 550px;
+            cursor: pointer;
+
+            @media only screen and (max-width: 426px) {
+                width: 375px;
+            }
+
+            p{
+                font-family: $font-main;
+                font-size: 16px;
+                font-weight: 600;
+                position: absolute;
+                margin-top: 406px;
+                margin-left: 400px;
+                z-index: -999;
+                display: none;
+                transition: 0.5s;
+                @media only screen and (max-width: 1024px) {
+                    margin-top: 316px;
+                    margin-left: 270px;
+                }
+                @media only screen and (max-width: 768px) {
+                    margin-top: 10px;
+                    margin-left: 430px;
+                    display: block;
+                }
+                @media only screen and (max-width: 426px) {
+                    margin-top: 0px;
+                    margin-left: 260px;
+                    display: block;
+                }
+            }
+
+            &:hover{
+
+                img{
+                    width: 500px;
+                    border: 5px solid black;
+                    display: block;
+                    z-index: -9999;
+                    position: absolute;
+                    margin-left: 40.5px;
+                    margin-top: 0.5px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-top: 20.5px;
+                        width: 350px;
+                    }
+                    @media only screen and (max-width: 768px) {
+                        position: static;
+                        margin-left: 25px;
+                        margin-top: 35px;
+                        width: 500px;
+                    }
+                    @media only screen and (max-width: 426px) {
+                        position: static;
+                        margin: 10px;
+                        width: 350px;
+                    }
+                }
+
+                p{
+                    font-family: $font-main;
+                    font-size: 16px;
+                    font-weight: 600;
+                    position: absolute;
+                    margin-top: 406px;
+                    margin-left: 400px;
+                    z-index: -999;
+                    display: block;
+                    transition: 0.5s;
+                    @media only screen and (max-width: 1024px) {
+                        margin-top: 316px;
+                        margin-left: 270px;
+                    }
+                    @media only screen and (max-width: 768px) {
+                        margin-top: 10px;
+                        margin-left: 430px;
+                    }
+                    @media only screen and (max-width: 426px) {
+                        margin-top: 0px;
+                        margin-left: 260px;
+                    }
+                }
+            }
+
+            img{
+                width: 500px;
+                border: 5px solid black;
+                display: block;
+                z-index: -9999;
+                position: absolute;
+                margin-left: 25.5px;
+                margin-top: 14px;
+                transition: 0.3s;
+                @media only screen and (max-width: 1024px) {
+                    margin-top: 35px;
+                    width: 350px;
+                }
+                @media only screen and (max-width: 768px) {
+                    position: static;
+                    width: 500px;
+                }
+                @media only screen and (max-width: 426px) {
+                    position: static;
+                    margin: 10px;
+                    width: 350px;
+                }
+            }
+
+            .fancy-shape-bt{
+                @media only screen and (max-width: 768px) {
+                    display: none;
+                }
+                .fancy-shape-bt-1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 12px;
+                    margin-top: 100px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-top: 150px;
+                    }
+
+                    .lineshape{
+                        width: 3.5px;
+                        height: 300px;
+                        background-color: $primary;
+                        @media only screen and (max-width: 1024px) {
+                            height: 160px;
+                        }
+                    }
+
+                    .circleshape{
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 15px;
+                        background-color: $primary;
+                    }
+                }
+                .fancy-shape-bt-2{
+                    @include flex-align;
+                    flex-direction: row;
+                    margin-right: 178px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-right: 208px;
+                    }
+
+                    .lineshape{
+                        height: 3.5px;
+                        width: 350px;
+                        background-color: $primary;
+                        @media only screen and (max-width: 1024px) {
+                            width: 200px;
+                        }
+                    }
+
+                    .circleshape{
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 15px;
+                        background-color: $primary;
+                    }
+                }
+            }
+
+
+        }
+
+        .view-2{
+            width: 550px;
+            cursor: pointer;
+            @media only screen and (max-width: 426px) {
+                width: 375px;
+            }
+
+            p{
+                font-family: $font-main;
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: -5px;
+                margin-left: 40px;
+                position: absolute;
+                z-index: -999;
+                display: none;
+                @media only screen and (max-width: 1024px) {
+                    margin-top: -5px;
+                    margin-left: 60px;
+                }
+                @media only screen and (max-width: 768px) {
+                    margin-top: 455px;
+                    margin-left: 430px;
+                    display: block;
+                }
+                @media only screen and (max-width: 426px) {
+                    margin-top: 325px;
+                    margin-left: 260px;
+                    display: block;
+                }
+            }
+
+            &:hover{
+                img{
+                    width: 500px;
+                    border: 5px solid black;
+                    display: inline;
+                    z-index: -9999;
+                    position: absolute;
+                    margin-right: 30px;
+                    margin-left: 0px;
+                    margin-top: 40px;
+                    @media only screen and (max-width: 1024px) {
+                        width: 350px;
+                        margin-left: 30px;
+                    }
+                    @media only screen and (max-width: 768px) {
+                        position: static;
+                        margin: 60px 25px 25px 25px;
+                        width: 500px;
+                    }
+                    @media only screen and (max-width: 426px) {
+                        position: static;
+                        margin: 40px 10px 10px 9px;
+                        width: 350px;
+                    }
+                }
+
+                p{
+                    font-family: $font-main;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-top: -5px;
+                    margin-left: 40px;
+                    position: absolute;
+                    z-index: -999;
+                    display: block;
+                    @media only screen and (max-width: 1024px) {
+                        margin-top: -5px;
+                        margin-left: 60px;
+                    }
+                    @media only screen and (max-width: 768px) {
+                        margin-top: 455px;
+                        margin-left: 430px;
+                    }
+                    @media only screen and (max-width: 426px) {
+                        margin-top: 325px;
+                        margin-left: 260px;
+                    }
+                }
+            }
+
+            img{
+                width: 500px;
+                border: 5px solid black;
+                display: inline;
+                z-index: -9999;
+                position: absolute;
+                margin-right: 15px;
+                margin-left: 14.5px;
+                margin-top: 25px;
+                transition: 0.3s;
+                @media only screen and (max-width: 1024px) {
+                    width: 350px;
+                    margin-left: 45.75px;
+                }
+                @media only screen and (max-width: 768px) {
+                    position: static;
+                    margin: 60px 25px 25px 25px;
+                    width: 500px;
+                }
+                @media only screen and (max-width: 426px) {
+                    position: static;
+                    margin: 40px 10px 10px 10px;
+                    width: 350px;
+                }
+            }
+
+            .fancy-shape-bt{
+                @media only screen and (max-width: 768px) {
+                    display: none;
+                }
+
+                .fancy-shape-bt-1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 12px;
+                    margin-bottom: 100px;
+                    margin-left: 538px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-left: 420px;
+                    }
+
+                    .lineshape{
+                        width: 3.5px;
+                        height: 300px;
+                        background-color: $primary;
+                        @media only screen and (max-width: 1024px) {
+                            height: 160px;
+                        }
+                    }
+
+                    .circleshape{
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 15px;
+                        background-color: $primary;
+                    }
+                }
+                .fancy-shape-bt-2{
+                    @include flex-align;
+                    flex-direction: row;
+                    margin-left: 178px;
+                    @media only screen and (max-width: 1024px) {
+                        margin-left: 208px;
+                    }
+
+                    .lineshape{
+                        height: 3.5px;
+                        width: 350px;
+                        background-color: $primary;
+                        @media only screen and (max-width: 1024px) {
+                            width: 200px;
+                        }
+                    }
+
+                    .circleshape{
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 15px;
+                        background-color: $primary;
+                    }
+                }
+            }
+
+        }
+
+    }
+}

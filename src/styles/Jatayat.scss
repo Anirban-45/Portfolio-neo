@@ -1,0 +1,134 @@
+@import "variables.scss";
+
+.faceimj {
+    padding-top: 90px;
+    width: 100%
+}
+
+.jhero {
+    @include margin-lr(120px);
+
+    @media only screen and (max-width: 1024px) {
+        @include margin-lr(120px);
+    }
+
+    @media only screen and (max-width: 768px) {
+        @include margin-lr(120px);
+    }
+
+    @media only screen and (max-width: 426px) {
+        @include margin-lr(30px);
+    }
+}
+
+
+.research {
+    width: 800px;
+    margin: auto;
+
+    .per {
+        @include flex-align;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+        img {
+            width: 85%;
+        }
+    }
+}
+
+.inter {
+    width: 800px;
+    margin: auto;
+
+    .finding {
+        @include flex-alignsb;
+
+        @media only screen and (max-width: 426px) {
+            flex-direction: column;
+        }
+
+        .finding-1 {
+            width: 38vw;
+
+            @media only screen and (max-width: 1024px) {
+                width: 35vw
+            }
+
+            @media only screen and (max-width: 426px) {
+                width: 100%
+            }
+        }
+
+        .finding-2 {
+            width: 38vw;
+
+            @media only screen and (max-width: 1024px) {
+                width: 35vw
+            }
+
+            @media only screen and (max-width: 426px) {
+                width: 100%
+            }
+        }
+    }
+}
+
+.des-def {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .wireframe {
+        @include flex-align;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        .w1 {
+            width: 50vw;
+        }
+    }
+
+    .sticker-board {
+        @include flex-align;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        .s1 {
+            width: 35.5vw;
+
+            @media only screen and (max-width: 768px) {
+                width: 40.6vw
+            }
+        }
+
+        .s2 {
+            width: 43.75vw;
+
+            @media only screen and (max-width: 768px) {
+                width: 50vw
+            }
+        }
+    }
+
+    .proto {
+        @include flex-align;
+        button{
+            font-family: $font-main;
+            width: 150px;
+            height: 40px;
+            border-radius: 25px;
+            margin: 0;
+            border-width: 0;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 10px;
+            background-color: $button;
+            transition: all 0.4s ease-in-out;
+            &:hover{
+                background-color: #f4a111;
+            }
+        }
+    }
+}
