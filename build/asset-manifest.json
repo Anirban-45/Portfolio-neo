@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c33b7de3.css",
+    "main.js": "/static/js/main.9e3ad820.js",
+    "static/media/mlibrary.jpg": "/static/media/mlibrary.bf812e4fffb926156326.jpg",
+    "static/media/Mcourse.jpg": "/static/media/Mcourse.276eda86974c0bf0b048.jpg",
+    "static/media/Mhome.jpg": "/static/media/Mhome.35860b47c39179b97e0a.jpg",
+    "static/media/Mprofile.jpg": "/static/media/Mprofile.a021321fe47201728c82.jpg",
+    "static/media/Photo.jpeg": "/static/media/Photo.374d7a8fe68c86e0e406.jpeg",
+    "static/media/Jatayat face.png": "/static/media/Jatayat face.bf542d80176ded3af04d.png",
+    "static/media/Jatayat ag.jpg": "/static/media/Jatayat ag.513a4813f5dad337e2e1.jpg",
+    "static/media/uj.jpg": "/static/media/uj.01ee17df0a063199f033.jpg",
+    "static/media/Beditor Mockup.jpeg": "/static/media/Beditor Mockup.fb7b5eddd61b65f5b78a.jpeg",
+    "static/media/Jatayat proto2.png": "/static/media/Jatayat proto2.005dec432841d5dd6dc2.png",
+    "static/media/Jatayat proto1.png": "/static/media/Jatayat proto1.742c3431ed1248e7a0f9.png",
+    "static/media/Medibee Mockup.jpeg": "/static/media/Medibee Mockup.2f9753a29eb97577525c.jpeg",
+    "static/media/cpt.jpg": "/static/media/cpt.eac02aa4f4423360e8b0.jpg",
+    "static/media/Jatayat Mockup.jpeg": "/static/media/Jatayat Mockup.64384ad387afd4f8543b.jpeg",
+    "static/media/about-image.jpg": "/static/media/about-image.f8d261c9faa42f864c0e.jpg",
+    "static/media/Beditor face.png": "/static/media/Beditor face.1c03f1fc81dcb67c35c0.png",
+    "static/media/Beditor 1.png": "/static/media/Beditor 1.ac26290111a6891047e0.png",
+    "static/media/wireframe1.png": "/static/media/wireframe1.e795139b13e5ee0c3a4a.png",
+    "static/media/sticker1.png": "/static/media/sticker1.afd1e209fec8ff23639b.png",
+    "static/media/Medibee ag.jpg": "/static/media/Medibee ag.318c24e2bd882c2f5d47.jpg",
+    "static/media/Persona.png": "/static/media/Persona.239b887bf77cc57cd091.png",
+    "static/media/sticker2.png": "/static/media/sticker2.9adb5e162f36ce500ddc.png",
+    "static/media/Beditor 2.png": "/static/media/Beditor 2.000e892bb765aa011bcc.png",
+    "static/media/stingray.png": "/static/media/stingray.43ca4ec3eb86f8eaa26a.png",
+    "index.html": "/index.html",
+    "main.c33b7de3.css.map": "/static/css/main.c33b7de3.css.map",
+    "main.9e3ad820.js.map": "/static/js/main.9e3ad820.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c33b7de3.css",
+    "static/js/main.9e3ad820.js"
+  ]
+}
