@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
 
 
 @keyframes blink-animation {
@@ -15,14 +16,14 @@ $tertiary: #264653;
 $button: #EFC958;
 $background: #F3F0E8;
 $font-primary: white;
-$font-color1: #2C8DD3;
-$font-color2: #289646;
+$font-color1: #297ebb;
+$font-color2: #008170;
 $font-color3: #242BDE;
 $font-color4: #B83F3F;
 $font-color5: #4A3F90;
 
 $font-main: 'DM Sans', sans-serif;
-$font-body: 'Inter', sans-serif;
+$font-body: 'Urbanist', sans-serif;
 $font-head: 'Poppins', sans-serif;
 
 @mixin margin-lr($space){

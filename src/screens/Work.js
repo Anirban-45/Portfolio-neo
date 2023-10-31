@@ -16,23 +16,26 @@ function Work() {
                 image={Jatayat}
                 title="Jatayat"
                 isNew={true}
+                reverse={true}
                 url="/work/jatayat"
-                description="Jatayat was a mobile application for any sort of bus services related to Dhaka."
+                description="Jatayat was a mobile application for any road activities and bus services related to Dhaka."
             />
             <Pcard
                 image={Medibee}
                 title="Medibee"
                 isNew={true}
+                reverse={false}
                 url="/work/medibee"
-                description="Medibee is a course management platform for medical students."
+                description="Medibee is a course management platform for medical students of Bangladesh. It provides curated courses and outlines to help one in their MBBS"
             />
             <Pcard
                 image={Beditor}
                 title="Beditor"
                 isNew={false}
-                 url="/work/beditor"
-                  description="A user friendly minimal writting tool for casual text documents."
-              />
+                reverse={true}
+                url="/work/beditor"
+                description="A user friendly minimal writting tool for casual text documents."
+            />
         </div>
     )
 }

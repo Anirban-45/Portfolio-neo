@@ -7,7 +7,7 @@ function Pcard(props) {
     const navigate = useNavigate();
 
     return(
-        <div className="pcard-body">
+        <div className={`${"pcard-body"} ${props.reverse? "reverse": ""}`}>
             <img src={props.image} alt=""/>
             <div className="layer">
                 <div className="nimage">

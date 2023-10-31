@@ -13,13 +13,13 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-track{
-    background: #F1FAEE;
+    background: $background;
 }
 
 body::-webkit-scrollbar-thumb{
-    background: #534666;
+    background: $primary;
 }
 
 body::-webkit-scrollbar-thumb:hover{
-    background: #433656;
+    background: $primary;
 }

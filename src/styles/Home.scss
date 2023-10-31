@@ -12,6 +12,10 @@
 
     &-front{
         @include flex-align();
+        gap: 10px;
+        @media only screen and (max-width: 1024px){
+            gap: 4px;
+        }
         @media only screen and (max-width: 426px){
             flex-direction: column;
         }
@@ -100,8 +104,6 @@
             }
         }
 
-
-
         .container-text{
             font-family: $font-body;
             font-weight: 600;
@@ -119,7 +121,7 @@
             }
 
             .main-pg {
-                font-size: 40px;
+                font-size: 42px;
                 @media only screen and (max-width: 1024px){
                     font-size: 28px;
                 }
@@ -131,21 +133,12 @@
                 }
 
                 .colored-text-1{
-                    @media only screen and (max-width: 768px){
-                        color: $font-color1;
-                    }
-                    &:hover{
-                        color: $font-color1;
-                    }
+                    color: $font-color1;
+                    
                 }
 
                 .colored-text-2{
-                    @media only screen and (max-width: 768px){
-                        color: $font-color2;
-                    }
-                    &:hover{
-                        color: $font-color2;
-                    }
+                    color: $font-color2;
                 }
             }
 
@@ -186,15 +179,17 @@
 
             p.desc-pg-1, .desc-pg-2{
                 width: 480px;
-                line-height: 25px;
-                font-weight: 450;
+                line-height: 28px;
+                font-size: 18px;
+                font-weight: 500;
                 @media only screen and (max-width: 1024px){
-                    width: 420px;
-                    font-size: 14px;
+                    width: 440px;
+                    font-size: 16px;
                 }
                 @media only screen and (max-width: 768px){
                     margin-right: 0px;
-                    font-size: 14px;
+                    font-size: 15px;
+                    line-height: 25px;
                 }
                 @media only screen and (max-width: 426px){
                     width: 380px;
@@ -204,7 +199,7 @@
             }
 
             .colored-text-5{
-                color: $font-color5;
+                color: $font-color2;
             }
         }
 
