@@ -92,11 +92,13 @@
 
     .sticker-board {
         @include flex-align;
+        flex-direction: column;
+        gap: 24px;
         margin-top: 40px;
         margin-bottom: 40px;
 
         .s1 {
-            width: 35.5vw;
+            width: 42vw;
 
             @media only screen and (max-width: 768px) {
                 width: 40.6vw
@@ -104,7 +106,7 @@
         }
 
         .s2 {
-            width: 43.75vw;
+            width: 50vw;
 
             @media only screen and (max-width: 768px) {
                 width: 50vw

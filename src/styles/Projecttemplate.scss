@@ -12,7 +12,8 @@ $sidebar-width: 100px;
         width: 100px;
         position: fixed;
         top: 20vh;
-        left: 40px;
+        left: 80px;
+        z-index: -1;
         
         
         .sidebar-lable {

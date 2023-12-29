@@ -111,11 +111,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 24px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 .des-def .sticker-board .s1 {
-  width: 35.5vw;
+  width: 42vw;
 }
 @media only screen and (max-width: 768px) {
   .des-def .sticker-board .s1 {
@@ -123,7 +125,7 @@
   }
 }
 .des-def .sticker-board .s2 {
-  width: 43.75vw;
+  width: 50vw;
 }
 @media only screen and (max-width: 768px) {
   .des-def .sticker-board .s2 {

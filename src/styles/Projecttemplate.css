@@ -17,7 +17,8 @@
   width: 100px;
   position: fixed;
   top: 20vh;
-  left: 40px;
+  left: 80px;
+  z-index: -1;
 }
 .project-head .sidebar .sidebar-lable {
   font-family: "DM Sans", sans-serif;
