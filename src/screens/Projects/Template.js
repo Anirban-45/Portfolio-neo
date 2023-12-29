@@ -1,11 +1,32 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import '../../styles/Projecttemplate.css'
 
 function Template(props) {
+    const [isVisible, setIsVisible] = useState(true);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.body.clientHeight;
+        
+            // Adjust this threshold as needed
+            const threshold = 100;
+        
+            setIsVisible(scrollTop + windowHeight < documentHeight - threshold);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return(
         <div className="project-head">
             <div className="sidebar">
-                <div className="sidebar-inner">
+                <div className={`${"sidebar-inner"} ${isVisible ? 'visible' : 'hidden'}`}>
+                    <div style={{ fontSize: "20px", fontWeight: "600", paddingLeft: "5px"}}>Contents</div>
+                    <div style={{ width: "100%", height: "4px", backgroundColor: "#2C8DD3" }}></div>
                     {props.SidebarContent}
                 </div>
             </div>

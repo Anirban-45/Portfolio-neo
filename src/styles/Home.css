@@ -127,6 +127,12 @@
     width: 395px;
   }
 }
+@media only screen and (max-width: 376px) {
+  .container-front .fancy-shape .lineshape {
+    height: 3.5px;
+    width: 355px;
+  }
+}
 .container-front .fancy-shape .circleshape {
   width: 12px;
   height: 12px;
@@ -152,7 +158,7 @@
 @media only screen and (max-width: 426px) {
   .container-front .container-text {
     margin-top: 10px;
-    width: 380px;
+    width: 360px;
   }
 }
 .container-front .container-text .main-pg {
@@ -234,7 +240,7 @@
 }
 @media only screen and (max-width: 426px) {
   .container-front .container-text p.desc-pg-1, .container-front .container-text .desc-pg-2 {
-    width: 380px;
+    width: 360px;
     margin-right: 0px;
     font-size: 13px;
   }

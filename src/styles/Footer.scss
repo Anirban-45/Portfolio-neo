@@ -6,6 +6,7 @@
     margin-top: 50px;
     font-family: $font-main;
     color: $font-primary;
+    position: relative;
     @media only screen and (max-width: 426px) {
         height: 200px;
     }
@@ -143,9 +144,6 @@
         }
     }
 
-    .icons{
-
-    }
 
     .rights{
         padding: 9px 12px 9px 12px;

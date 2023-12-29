@@ -10,9 +10,14 @@
 .project-head {
   font-family: "DM Sans", sans-serif;
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
   flex-direction: row;
-  gap: 240px;
+}
+.project-head .sidebar {
+  width: 100px;
+  position: fixed;
+  top: 20vh;
+  left: 40px;
 }
 .project-head .sidebar .sidebar-lable {
   font-family: "DM Sans", sans-serif;
@@ -22,18 +27,15 @@
   color: #B83F3F;
 }
 .project-head .sidebar .sidebar-inner {
-  background-color: rgba(203, 203, 203, 0.626);
-  position: fixed;
-  width: 88vh;
   padding: 10px 0px;
-  top: 52.75vh;
-  left: -240px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
   gap: 6px;
-  rotate: 90deg;
+  flex: 1;
+  width: 100px;
+  transition: transform 0.3s ease-in-out;
 }
 @media only screen and (max-width: 1024px) {
   .project-head .sidebar .sidebar-inner {
@@ -47,6 +49,12 @@
 }
 .project-head .sidebar .sidebar-inner a:hover {
   color: #297ebb;
+}
+.project-head .sidebar .sidebar-inner.visible {
+  transform: translateX(0px);
+}
+.project-head .sidebar .sidebar-inner.hidden {
+  transform: translateX(-200px);
 }
 .project-head .head-content {
   width: 800px;

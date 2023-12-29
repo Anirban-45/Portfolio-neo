@@ -1,13 +1,20 @@
 @import "./variables.scss";
 
+$sidebar-width: 100px;
+
 .project-head {
     font-family: $font-main;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
     flex-direction: row;
-    gap: 240px;
     
     .sidebar{
+        width: 100px;
+        position: fixed;
+        top: 20vh;
+        left: 40px;
+        
+        
         .sidebar-lable {
             font-family: $font-main;
             font-size: 20px;
@@ -17,18 +24,16 @@
         }
         
         .sidebar-inner{
-            background-color: rgba(203, 203, 203, 0.626);
-            position: fixed;
-            width: 88vh;
             padding: 10px 0px;
-            top: 52.75vh;
-            left: -240px;
+            
             display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
             gap: 6px;
-            rotate: 90deg;
+            flex: 1;
+            width: $sidebar-width;
+            transition: transform 0.3s ease-in-out;
             @media only screen and (max-width: 1024px){
                 display: none;
             }
@@ -42,7 +47,16 @@
             a:hover{
                 color: $font-color1;
             }
+
+            &.visible {
+                transform: translateX(0px);
+            }
+            
+            &.hidden {
+                transform: translateX(-$sidebar-width*2);
+            }
         }
+
     }
 
     .head-content {

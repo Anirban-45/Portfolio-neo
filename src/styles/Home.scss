@@ -94,6 +94,10 @@
                     height: 3.5px;
                     width: 395px;
                 }
+                @media only screen and (max-width: 376px){
+                    height: 3.5px;
+                    width: 355px;
+                }
             }
 
             .circleshape{
@@ -117,7 +121,7 @@
             }
             @media only screen and (max-width: 426px){
                 margin-top: 10px;
-                width: 380px;
+                width: 360px;
             }
 
             .main-pg {
@@ -192,7 +196,7 @@
                     line-height: 25px;
                 }
                 @media only screen and (max-width: 426px){
-                    width: 380px;
+                    width: 360px;
                     margin-right: 0px;
                     font-size: 13px;
                 }
@@ -231,6 +235,7 @@
             font-size: 28px;
             font-weight: 600;
         }
+        
     }
 
     .work-layer{
