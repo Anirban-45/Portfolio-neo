@@ -5,11 +5,13 @@ import face from '../../assets/Beditor face.png';
 import set from '../../assets/settings.png';
 import b1 from '../../assets/Beditor 1.png';
 import b2 from '../../assets/Beditor 2.png';
+import Mobileswitcher from '../../components/Mobileswitcher.js';
 
 function Beditor() {
     window.scrollTo(0,0);
     return(
         <>
+            <Mobileswitcher />
             <div className="crop">
                 <img className="faceim" src={face} alt=""/>
             </div>

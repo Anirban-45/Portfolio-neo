@@ -8,6 +8,7 @@ import proto1 from '../../assets/Jatayat proto1.png';
 import proto2 from '../../assets/Jatayat proto2.png';
 import persona from '../../assets/Persona.png';
 import Template from './Template.js';
+import Mobileswitcher from '../../components/Mobileswitcher.js';
 
 function Jatayat() {
     window.scrollTo(0,0);
@@ -18,6 +19,7 @@ function Jatayat() {
 
     return(
         <div>
+            <Mobileswitcher />
             <img src={face} className="faceimj" alt=""/>
             <div className="jhero">
                 <Template

@@ -15,12 +15,43 @@
   font-family: "DM Sans", sans-serif;
 }
 .work-container .beginningtext {
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 40px;
+  width: 93vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 100px;
+  margin-left: 160px;
+  margin-right: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 @media only screen and (max-width: 426px) {
   .work-container .beginningtext {
     max-width: 350px;
   }
+}
+.work-container .beginningtext .label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.work-container .beginningtext .label .subtext {
+  width: 70%;
+  font-size: 16px;
+  font-weight: 400;
+}
+.work-container .beginningtext .iconexterior {
+  padding: 10px;
+  border-radius: 50%;
+  border: #e7bc97 1px solid;
+}
+.work-container .beginningtext .iconexterior .iconholder {
+  background: #F1D1B5;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  padding: 24px;
+  border: #e7bc97 1px solid;
 }

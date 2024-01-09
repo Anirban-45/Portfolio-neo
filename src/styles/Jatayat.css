@@ -54,6 +54,16 @@
   width: 800px;
   margin: auto;
 }
+@media only screen and (max-width: 768px) {
+  .inter {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .inter {
+    width: 86vw;
+  }
+}
 .inter .finding {
   display: flex;
   align-items: center;
@@ -90,24 +100,23 @@
     width: 100%;
   }
 }
-
-.des-def {
-  width: 800px;
+.inter .des-def {
+  width: 80vw;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-.des-def .wireframe {
+.inter .des-def .wireframe {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.des-def .wireframe .w1 {
+.inter .des-def .wireframe .w1 {
   width: 50vw;
 }
-.des-def .sticker-board {
+.inter .des-def .sticker-board {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,28 +125,28 @@
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.des-def .sticker-board .s1 {
+.inter .des-def .sticker-board .s1 {
   width: 42vw;
 }
 @media only screen and (max-width: 768px) {
-  .des-def .sticker-board .s1 {
+  .inter .des-def .sticker-board .s1 {
     width: 40.6vw;
   }
 }
-.des-def .sticker-board .s2 {
+.inter .des-def .sticker-board .s2 {
   width: 50vw;
 }
 @media only screen and (max-width: 768px) {
-  .des-def .sticker-board .s2 {
+  .inter .des-def .sticker-board .s2 {
     width: 50vw;
   }
 }
-.des-def .proto {
+.inter .des-def .proto {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.des-def .proto button {
+.inter .des-def .proto button {
   font-family: "DM Sans", sans-serif;
   width: 150px;
   height: 40px;
@@ -150,6 +159,6 @@
   background-color: #EFC958;
   transition: all 0.4s ease-in-out;
 }
-.des-def .proto button:hover {
+.inter .des-def .proto button:hover {
   background-color: #f4a111;
 }

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import '../styles/Navbar.css'
 import {NavLink} from 'react-router-dom'
-import stingray from '../assets/stingray.png'
+import stingray from '../assets/stingray.svg'
 import { FaBars } from 'react-icons/fa'
 import { FaTimes } from 'react-icons/fa'
 

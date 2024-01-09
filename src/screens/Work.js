@@ -3,6 +3,7 @@ import Pcard from '../components/Projectcard'
 import Beditor from '../assets/Beditor Mockup.jpeg'
 import Jatayat from '../assets/Jatayat Mockup.jpeg'
 import Medibee from '../assets/Medibee Mockup.jpeg'
+import Workicon from '../assets/planing.png'
 import '../styles/Work.css'
 
 function Work() {
@@ -10,7 +11,15 @@ function Work() {
     return(
         <div className="work-container">
         <div className="beginningtext">
-            Following are a few projects That I have worked on!
+            <div className='label'>
+                My work projects.
+                <span className="subtext"> These are a few projects I have worked on. If you look into them you gradually see my growth. Beginner or intermediate, I am quite proud of each and every one of them. </span>
+            </div>
+            <div className="iconexterior">
+                <div className="iconholder">
+                    <img src={Workicon} alt=""></img>
+                </div>
+            </div>
         </div>
             <Pcard
                 image={Jatayat}

@@ -1,17 +1,19 @@
 import React from 'react';
 import '../../styles/Medibee.css';
 import Template from './Template.js';
-import uj from '../../assets/uj.jpg';
+import uj from '../../assets/Medibee-uj.jpg';
 import cpt from '../../assets/cpt.jpg';
 import Mhome from '../../assets/Mhome.jpg';
 import Mcourse from '../../assets/Mcourse.jpg';
 import Mlibrary from '../../assets/mlibrary.jpg';
 import Mprofile from '../../assets/Mprofile.jpg';
+import Mobileswitcher from '../../components/Mobileswitcher.js';
 
 function Medibee() {
     window.scrollTo(0,0);
     return(
         <>
+            <Mobileswitcher />
             <div className="mhero">
                 <Template
                     SidebarContent={
@@ -68,6 +70,7 @@ function Medibee() {
                             <div className="des-def">
                                 <div className="heding">Define</div>
                                 <p style={{lineHeight: "25px"}}>For defining the whole work process I had to imagine a User journey. As It is a fairly large project defining the roadmap was necessary. The key module features are projected with the darker blue rectangles which then branches out to their smaller services. </p>
+                                <span style={{fontWeight: "600",  fontSize: "22px"}}>User Journey</span>
                                 <div className="user-journey">
                                     <img src={uj} alt=""/>
                                 </div>

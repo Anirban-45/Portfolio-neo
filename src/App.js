@@ -9,6 +9,7 @@ import Work from './screens/Work'
 import Beditor from './screens/Projects/Beditor'
 import Jatayat from './screens/Projects/Jatayat'
 import Medibee from './screens/Projects/Medibee'
+import Oxfo from './screens/Projects/Oxfo'
 
 import Contact from './screens/Contact'
 
@@ -40,6 +41,8 @@ function App() {
                     <Route path="/work/beditor" element={<Beditor/>} />
                     <Route path="/work/jatayat" element={<Jatayat/>} />
                     <Route path="/work/medibee" element={<Medibee/>} />
+                    <Route path="/work/oxfo" element={<Oxfo/>} />
+
                 </Routes>
                 <Footer/>
             </Router>

@@ -1,0 +1,49 @@
+@import "variables.scss";
+
+.ohero{
+    padding-top: 120px;
+    @include margin-lr(160px);
+    @media only screen and (max-width: 768px){
+        @include margin-lr(120px);
+    }
+    @media only screen and (max-width: 426px){
+        @include margin-lr(30px);
+    }
+
+    // .research{
+    //     width: 800px;
+    //     margin: auto;
+    // }
+    // .des-def{
+    //     .user-journey{
+    //         margin-top: 20px;
+    //         @include flex-align;
+    //         img{
+    //             width: 60vw;
+    //             @media only screen and (max-width: 768px){
+    //                 width: 69vw;
+    //             }
+    //             @media only screen and (max-width: 426px){
+    //                 width: 86vw;
+    //             }
+    //         }
+    //     }
+        
+    // }
+
+
+    .typo{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        @include flex-align;
+        img{
+            width: 70vw;
+            @media only screen and (max-width: 768px){
+                width: 68vw;
+            }
+            @media only screen and (max-width: 426px){
+                width: 86vw;
+            }
+        }
+    }
+}
