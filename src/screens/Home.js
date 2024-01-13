@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
-import Testimonialcard from '../components/Testimonialcard';
+// import Testimonialcard from '../components/Testimonialcard';
 import profile from '../assets/Photo.jpeg';
 import research from '../assets/research.png';
 import product from '../assets/growth.png';
@@ -9,7 +9,7 @@ import Card from '../components/Card';
 import Jatayat from '../assets/Jatayat ag.jpg';
 import Medibee from '../assets/Medibee ag.jpg';
 import {useNavigate} from 'react-router-dom';
-import Slider from "react-slick";
+// import Slider from "react-slick";
 
 function Home() {
     window.scrollTo(0,0);

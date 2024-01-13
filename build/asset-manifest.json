@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.c33b7de3.css",
-    "main.js": "/static/js/main.5555f34c.js",
+    "main.css": "/static/css/main.dacb4bfb.css",
+    "main.js": "/static/js/main.978de302.js",
+    "static/media/LLD.png": "/static/media/LLD.83ab9a399c90e475638c.png",
+    "static/media/Oxfo.png": "/static/media/Oxfo.fdfae5be3e82084d3d49.png",
     "static/media/mlibrary.jpg": "/static/media/mlibrary.bf812e4fffb926156326.jpg",
     "static/media/Mcourse.jpg": "/static/media/Mcourse.276eda86974c0bf0b048.jpg",
     "static/media/Mhome.jpg": "/static/media/Mhome.35860b47c39179b97e0a.jpg",
@@ -9,8 +11,8 @@
     "static/media/Photo.jpeg": "/static/media/Photo.374d7a8fe68c86e0e406.jpeg",
     "static/media/Jatayat face.png": "/static/media/Jatayat face.bf542d80176ded3af04d.png",
     "static/media/Jatayat ag.jpg": "/static/media/Jatayat ag.513a4813f5dad337e2e1.jpg",
-    "static/media/uj.jpg": "/static/media/uj.01ee17df0a063199f033.jpg",
     "static/media/Beditor Mockup.jpeg": "/static/media/Beditor Mockup.fb7b5eddd61b65f5b78a.jpeg",
+    "static/media/Oxfo Mockup.jpg": "/static/media/Oxfo Mockup.1862eac1303fa976e2d1.jpg",
     "static/media/Jatayat proto2.png": "/static/media/Jatayat proto2.005dec432841d5dd6dc2.png",
     "static/media/Jatayat proto1.png": "/static/media/Jatayat proto1.742c3431ed1248e7a0f9.png",
     "static/media/Medibee Mockup.jpeg": "/static/media/Medibee Mockup.2f9753a29eb97577525c.jpeg",
@@ -19,19 +21,33 @@
     "static/media/about-image.jpg": "/static/media/about-image.f8d261c9faa42f864c0e.jpg",
     "static/media/Beditor face.png": "/static/media/Beditor face.1c03f1fc81dcb67c35c0.png",
     "static/media/Beditor 1.png": "/static/media/Beditor 1.ac26290111a6891047e0.png",
+    "static/media/component library.png": "/static/media/component library.95445d950f32035df6dc.png",
+    "static/media/Business Model Canvas.jpg": "/static/media/Business Model Canvas.685a5eba9c78ffd6b4dc.jpg",
     "static/media/wireframe1.png": "/static/media/wireframe1.e795139b13e5ee0c3a4a.png",
     "static/media/sticker1.png": "/static/media/sticker1.afd1e209fec8ff23639b.png",
     "static/media/Medibee ag.jpg": "/static/media/Medibee ag.318c24e2bd882c2f5d47.jpg",
+    "static/media/Marketing.png": "/static/media/Marketing.46382ef9bfb8f2641a28.png",
+    "static/media/Sticker board.png": "/static/media/Sticker board.8bfef4f7aa637c24b467.png",
     "static/media/Persona.png": "/static/media/Persona.239b887bf77cc57cd091.png",
+    "static/media/Medibee-uj.jpg": "/static/media/Medibee-uj.a9fa7acc4c20940526f3.jpg",
     "static/media/sticker2.png": "/static/media/sticker2.9adb5e162f36ce500ddc.png",
     "static/media/Beditor 2.png": "/static/media/Beditor 2.000e892bb765aa011bcc.png",
-    "static/media/stingray.png": "/static/media/stingray.43ca4ec3eb86f8eaa26a.png",
+    "static/media/quality-assurance.png": "/static/media/quality-assurance.101e608b14c28a4ac42e.png",
+    "static/media/Color.png": "/static/media/Color.9aa5e884684b53c14d4a.png",
+    "static/media/conversation.png": "/static/media/conversation.f3eade2a3794b069c72d.png",
+    "static/media/team-building.png": "/static/media/team-building.08528923385ffe24e73b.png",
+    "static/media/consultation.png": "/static/media/consultation.37a0dcc0028d30a83a70.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/stingray.svg": "/static/media/stingray.bb0921afd62ab8155fb7d96ac4738ec2.svg",
     "index.html": "/index.html",
-    "main.c33b7de3.css.map": "/static/css/main.c33b7de3.css.map",
-    "main.5555f34c.js.map": "/static/js/main.5555f34c.js.map"
+    "main.dacb4bfb.css.map": "/static/css/main.dacb4bfb.css.map",
+    "main.978de302.js.map": "/static/js/main.978de302.js.map"
   },
   "entrypoints": [
-    "static/css/main.c33b7de3.css",
-    "static/js/main.5555f34c.js"
+    "static/css/main.dacb4bfb.css",
+    "static/js/main.978de302.js"
   ]
 }
