@@ -28,12 +28,14 @@
   .pcard-body {
     flex-direction: column;
     width: 60vw;
+    margin-bottom: 120px;
   }
 }
 @media only screen and (max-width: 426px) {
   .pcard-body {
     flex-direction: column;
     width: 80vw;
+    margin-bottom: 80px;
   }
 }
 .pcard-body img {
@@ -86,6 +88,11 @@
 @media only screen and (max-width: 1024px) {
   .pcard-body .layer .access {
     padding: 10px 40px 40px 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .pcard-body .layer .access {
+    padding: 6px 26px 26px 26px;
   }
 }
 .pcard-body .layer .access .pcard-title {

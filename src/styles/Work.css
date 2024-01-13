@@ -46,6 +46,11 @@
   border-radius: 50%;
   border: #e7bc97 1px solid;
 }
+@media screen and (max-width: 426px) {
+  .work-container .beginningtext .iconexterior {
+    display: none;
+  }
+}
 .work-container .beginningtext .iconexterior .iconholder {
   background: #F1D1B5;
   width: 60px;

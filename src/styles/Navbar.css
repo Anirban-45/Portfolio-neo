@@ -27,7 +27,7 @@
 }
 @media only screen and (max-width: 768px) {
   .navbar-container {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
   }
 }
 .navbar-container .navbar-logo {
@@ -40,6 +40,11 @@
   .navbar-container .navbar-logo {
     padding-top: 20px;
     margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .navbar-container .navbar-logo {
+    margin-left: 20px;
   }
 }
 .navbar-container .navbar-logo img {
@@ -129,6 +134,11 @@
     cursor: pointer;
     margin-right: 50px;
     transition: all ease-in-out 0.35s;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .navbar-container .menu-toggle {
+    margin-right: 20px;
   }
 }
 

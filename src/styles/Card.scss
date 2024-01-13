@@ -1,13 +1,12 @@
 @import "./variables.scss";
 
 .card-body{
-    width: 350px;
-    box-shadow: 0 0 3px 2px grey;
+    width: 380px;
+    box-shadow: 0 0 3px 2px rgb(203, 203, 203);
     font-family: $font-main;
     color: $font-primary;
     background: #264653;
-    margin-top: 30px;
-    padding-bottom: 10px;
+    padding: 36px 0;
     border-radius: 25px;
     @include flex-align;
     flex-direction: column;
@@ -19,7 +18,7 @@
     }
     @media only screen and (max-width: 768px){
         width: 500px;
-        height: 60px;
+        height: 70px;
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -38,45 +37,46 @@
 
     .icon-holder{
         background: #F1D1B5;
-        width: 60px;
-        height: 60px;
-        margin-top: 30px;
-        margin-bottom: -10px;
-        border-radius: 30px;
-        @media only screen and (max-width: 768px){
-            margin-top: -8px;
-            margin-right: 15px;
-            width: 50px;
-            height: 50px;
-        }
-    }
-
-    img{
-        width: 40px;
+        width: 100px;
+        height: 100px;
         margin-top: 10px;
-        margin-left: 10px;
+        border-radius: 50%;
+        @include flex-align;
         @media only screen and (max-width: 768px){
-            width: 30px;
+            @include flex-align;
+            margin-top: 0px;
+            margin-right: 15px;
+            width: 70px;
+            height: 70px;
         }
 
+        img{
+            width: 55px;
+            @media only screen and (max-width: 768px){
+                width: 45px;
+            }
+    
+        }
     }
+
 
     .card-title{
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 700;
         margin-bottom: 10px;
         @media only screen and (max-width: 1024px){
             font-size: 18px;
         }
         @media only screen and (max-width: 768px){
-            margin-top: 15px;
+            margin-top: 0px;
+            margin-bottom: 0px;
             font-size: 18px;
         }
     }
 
     .card-desc{
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 18px;
+        font-weight: 400;
         @include margin-lr(30px);
         text-align: center;
         @media only screen and (max-width: 1024px){
@@ -85,5 +85,14 @@
         @media only screen and (max-width: 768px){
             display: none;
         }
+    }
+}
+
+.card-body:hover{
+    cursor: pointer;
+
+    .icon-holder{
+        background: rgb(255, 248, 168);
+        transition: all 0.3s ease-in-out;
     }
 }

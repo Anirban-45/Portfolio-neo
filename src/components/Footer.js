@@ -25,7 +25,7 @@ function Footer(props) {
                     <div className="other-links">
                         <span>Back to Top</span>
                         <span>Writeups</span>
-                        <a href="https://drive.google.com/file/d/1j0v0vWek-RkQ_NCJxLCYr7el1Sb64kZH/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1QBtYaRKwoe940eOSTEF_0k33ZK5Q81LY/view?usp=sharing">
                             <span>Resume</span>
                         </a>
                     </div>

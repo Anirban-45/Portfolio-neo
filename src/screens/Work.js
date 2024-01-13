@@ -3,6 +3,7 @@ import Pcard from '../components/Projectcard'
 import Beditor from '../assets/Beditor Mockup.jpeg'
 import Jatayat from '../assets/Jatayat Mockup.jpeg'
 import Medibee from '../assets/Medibee Mockup.jpeg'
+import Oxfo from '../assets/Oxfo Mockup.jpg';
 import Workicon from '../assets/planing.png'
 import '../styles/Work.css'
 
@@ -22,6 +23,15 @@ function Work() {
             </div>
         </div>
             <Pcard
+                image={Oxfo}
+                title="Oxfo.tech"
+                isNew={true}
+                reverse={false}
+                url="/work/oxfo"
+                description="Oxfo is a remotwly worked full stack engineering platform who brings real world ideas into life."
+            />
+            
+            <Pcard
                 image={Jatayat}
                 title="Jatayat"
                 isNew={true}
@@ -32,7 +42,7 @@ function Work() {
             <Pcard
                 image={Medibee}
                 title="Medibee"
-                isNew={true}
+                isNew={false}
                 reverse={false}
                 url="/work/medibee"
                 description="Medibee is a course management platform for medical students of Bangladesh. It provides curated courses and outlines to help one in their MBBS"

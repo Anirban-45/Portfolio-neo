@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
+import Testimonialcard from '../components/Testimonialcard';
 import profile from '../assets/Photo.jpeg';
 import research from '../assets/research.png';
 import product from '../assets/growth.png';
@@ -8,6 +9,7 @@ import Card from '../components/Card';
 import Jatayat from '../assets/Jatayat ag.jpg';
 import Medibee from '../assets/Medibee ag.jpg';
 import {useNavigate} from 'react-router-dom';
+import Slider from "react-slick";
 
 function Home() {
     window.scrollTo(0,0);
@@ -95,6 +97,24 @@ function Home() {
 
                     </div>
                 </div>
+
+                {/* <Slider
+                    dots={true}
+                    lazyLoad={true}
+                    infinite={true}
+                    speed={500}
+                    slidesToShow={2}
+                    gap={10}
+                >
+                    <Testimonialcard
+                        name="Faysal Islam"
+                        position="Founder, Safewheel"
+                        content="I am very happy with the work that I have done. I love the design, the quality, and the"
+                    />
+                    <Testimonialcard
+                        name="Anirban"
+                    />
+                </Slider> */}
             </div>
         </div>
     )

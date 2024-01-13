@@ -18,10 +18,12 @@
     @media only screen and (max-width: 768px){
         flex-direction: column;
         width: 60vw;
+        margin-bottom: 120px;
     }
     @media only screen and (max-width: 426px){
         flex-direction: column;
         width: 80vw;
+        margin-bottom: 80px;
     }
 
     img{
@@ -69,6 +71,10 @@
             padding: 10px 50px 90px 50px;
             @media only screen and (max-width: 1024px){
                 padding: 10px 40px 40px 40px;
+            }
+
+            @media only screen and (max-width: 768px){
+                padding: 6px 26px 26px 26px;
             }
 
 

@@ -8,13 +8,12 @@
   }
 }
 .card-body {
-  width: 350px;
-  box-shadow: 0 0 3px 2px grey;
+  width: 380px;
+  box-shadow: 0 0 3px 2px rgb(203, 203, 203);
   font-family: "DM Sans", sans-serif;
   color: white;
   background: #264653;
-  margin-top: 30px;
-  padding-bottom: 10px;
+  padding: 36px 0;
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -31,7 +30,7 @@
 @media only screen and (max-width: 768px) {
   .card-body {
     width: 500px;
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -52,32 +51,35 @@
 }
 .card-body .icon-holder {
   background: #F1D1B5;
-  width: 60px;
-  height: 60px;
-  margin-top: 30px;
-  margin-bottom: -10px;
-  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media only screen and (max-width: 768px) {
   .card-body .icon-holder {
-    margin-top: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
     margin-right: 15px;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
   }
 }
-.card-body img {
-  width: 40px;
-  margin-top: 10px;
-  margin-left: 10px;
+.card-body .icon-holder img {
+  width: 55px;
 }
 @media only screen and (max-width: 768px) {
-  .card-body img {
-    width: 30px;
+  .card-body .icon-holder img {
+    width: 45px;
   }
 }
 .card-body .card-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -88,13 +90,14 @@
 }
 @media only screen and (max-width: 768px) {
   .card-body .card-title {
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 18px;
   }
 }
 .card-body .card-desc {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   margin-left: 30px;
   margin-right: 30px;
   text-align: center;
@@ -108,4 +111,12 @@
   .card-body .card-desc {
     display: none;
   }
+}
+
+.card-body:hover {
+  cursor: pointer;
+}
+.card-body:hover .icon-holder {
+  background: rgb(255, 248, 168);
+  transition: all 0.3s ease-in-out;
 }

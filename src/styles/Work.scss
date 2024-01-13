@@ -36,6 +36,10 @@
             padding: 10px;
             border-radius: 50%;
             border: #e7bc97 1px solid;
+
+            @media screen and (max-width: 426px){
+                display: none;
+            }
     
             .iconholder{
                 background: #F1D1B5;
