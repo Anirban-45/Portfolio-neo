@@ -4,6 +4,7 @@ import Beditor from '../assets/Beditor Mockup.jpeg'
 import Jatayat from '../assets/Jatayat Mockup.jpeg'
 import Medibee from '../assets/Medibee Mockup.jpeg'
 import Oxfo from '../assets/Oxfo Mockup.jpg';
+import Lily from '../assets/Lily/WorkFrame.png'
 import Workicon from '../assets/planing.png'
 import '../styles/Work.css'
 
@@ -26,11 +27,18 @@ function Work() {
                 image={Oxfo}
                 title="Oxfo.tech"
                 isNew={true}
-                reverse={false}
+                reverse={true}
                 url="/work/oxfo"
                 description="Oxfo is a remotwly worked full stack engineering platform who brings real world ideas into life."
             />
-            
+            <Pcard
+                image={Lily}
+                title="Lily Social Commerce"
+                isNew={false}
+                reverse={false}
+                url="/work/lily"
+                description="Lily Social Commerce is a social commerce platform for selling and buying Customizable designer Attires."
+            />
             <Pcard
                 image={Jatayat}
                 title="Jatayat"

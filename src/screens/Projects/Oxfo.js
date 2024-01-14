@@ -15,6 +15,7 @@ import cl1 from '../../assets/Oxfo/Sticker board.png';
 import cl2 from '../../assets/Oxfo/component library.png';
 
 const Oxfo = () => {
+    window.scrollTo(0,0);
     return (
         <>
             <Mobileswitcher />
@@ -181,10 +182,10 @@ const Oxfo = () => {
                             <div className="typo2">
                                 <img src={cl2} alt=""/>
                             </div>
+                            <span style={{fontWeight: "500",  fontSize: "20px"}}>Responsive UI</span>
                             <p>
                                 To show how the website and webapp would behave on various devices, I made responsive designs for the homepage and few important other pages.
                             </p>
-                            <span style={{fontWeight: "500",  fontSize: "20px"}}>Responsive UI</span>
                             <div className="typo">
                                 <img src={Oxfopage} alt=""/>
                             </div>

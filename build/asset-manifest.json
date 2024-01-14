@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dacb4bfb.css",
-    "main.js": "/static/js/main.978de302.js",
+    "main.css": "/static/css/main.2ab10cf9.css",
+    "main.js": "/static/js/main.32ca7f99.js",
     "static/media/LLD.png": "/static/media/LLD.83ab9a399c90e475638c.png",
     "static/media/Oxfo.png": "/static/media/Oxfo.fdfae5be3e82084d3d49.png",
     "static/media/mlibrary.jpg": "/static/media/mlibrary.bf812e4fffb926156326.jpg",
@@ -12,6 +12,8 @@
     "static/media/Jatayat face.png": "/static/media/Jatayat face.bf542d80176ded3af04d.png",
     "static/media/Jatayat ag.jpg": "/static/media/Jatayat ag.513a4813f5dad337e2e1.jpg",
     "static/media/Beditor Mockup.jpeg": "/static/media/Beditor Mockup.fb7b5eddd61b65f5b78a.jpeg",
+    "static/media/Landing Page.png": "/static/media/Landing Page.dbbeaf875fd1c91c6d8c.png",
+    "static/media/Customer entry page.png": "/static/media/Customer entry page.8a9e4ad4ed870e168b20.png",
     "static/media/Oxfo Mockup.jpg": "/static/media/Oxfo Mockup.1862eac1303fa976e2d1.jpg",
     "static/media/Jatayat proto2.png": "/static/media/Jatayat proto2.005dec432841d5dd6dc2.png",
     "static/media/Jatayat proto1.png": "/static/media/Jatayat proto1.742c3431ed1248e7a0f9.png",
@@ -22,6 +24,7 @@
     "static/media/Beditor face.png": "/static/media/Beditor face.1c03f1fc81dcb67c35c0.png",
     "static/media/Beditor 1.png": "/static/media/Beditor 1.ac26290111a6891047e0.png",
     "static/media/component library.png": "/static/media/component library.95445d950f32035df6dc.png",
+    "static/media/Profile.png": "/static/media/Profile.33bc3e1c820c3553fbad.png",
     "static/media/Business Model Canvas.jpg": "/static/media/Business Model Canvas.685a5eba9c78ffd6b4dc.jpg",
     "static/media/wireframe1.png": "/static/media/wireframe1.e795139b13e5ee0c3a4a.png",
     "static/media/sticker1.png": "/static/media/sticker1.afd1e209fec8ff23639b.png",
@@ -31,7 +34,9 @@
     "static/media/Persona.png": "/static/media/Persona.239b887bf77cc57cd091.png",
     "static/media/Medibee-uj.jpg": "/static/media/Medibee-uj.a9fa7acc4c20940526f3.jpg",
     "static/media/sticker2.png": "/static/media/sticker2.9adb5e162f36ce500ddc.png",
+    "static/media/Sign Up Page.png": "/static/media/Sign Up Page.cbe9156e61832b74d57d.png",
     "static/media/Beditor 2.png": "/static/media/Beditor 2.000e892bb765aa011bcc.png",
+    "static/media/WorkFrame.png": "/static/media/WorkFrame.fbf159aaa2fcc3663e28.png",
     "static/media/quality-assurance.png": "/static/media/quality-assurance.101e608b14c28a4ac42e.png",
     "static/media/Color.png": "/static/media/Color.9aa5e884684b53c14d4a.png",
     "static/media/conversation.png": "/static/media/conversation.f3eade2a3794b069c72d.png",
@@ -43,11 +48,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/stingray.svg": "/static/media/stingray.bb0921afd62ab8155fb7d96ac4738ec2.svg",
     "index.html": "/index.html",
-    "main.dacb4bfb.css.map": "/static/css/main.dacb4bfb.css.map",
-    "main.978de302.js.map": "/static/js/main.978de302.js.map"
+    "main.2ab10cf9.css.map": "/static/css/main.2ab10cf9.css.map",
+    "main.32ca7f99.js.map": "/static/js/main.32ca7f99.js.map"
   },
   "entrypoints": [
-    "static/css/main.dacb4bfb.css",
-    "static/js/main.978de302.js"
+    "static/css/main.2ab10cf9.css",
+    "static/js/main.32ca7f99.js"
   ]
 }

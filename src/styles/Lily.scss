@@ -1,0 +1,31 @@
+@import "variables.scss";
+
+.Lilhero{
+    padding-top: 120px;
+    @include margin-lr(160px);
+    @media only screen and (max-width: 768px){
+        @include margin-lr(120px);
+    }
+    @media only screen and (max-width: 426px){
+        @include margin-lr(30px);
+    }
+
+    .goals{   
+        display: none !important;
+    }
+    .objective{
+        display: none !important;
+    }
+
+    .typo{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        @include flex-align;
+        img{
+            width: 52vw;
+            @media only screen and (max-width: 1024px){
+                width: 77vw;
+            }
+        }
+    }
+}

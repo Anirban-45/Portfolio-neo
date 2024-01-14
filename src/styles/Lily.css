@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap");
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.Lilhero {
+  padding-top: 120px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+@media only screen and (max-width: 768px) {
+  .Lilhero {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .Lilhero {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+.Lilhero .goals {
+  display: none !important;
+}
+.Lilhero .objective {
+  display: none !important;
+}
+.Lilhero .typo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Lilhero .typo img {
+  width: 52vw;
+}
+@media only screen and (max-width: 1024px) {
+  .Lilhero .typo img {
+    width: 77vw;
+  }
+}
