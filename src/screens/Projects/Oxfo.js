@@ -10,6 +10,7 @@ import Icon1 from '../../assets/Oxfo/conversation.png';
 import Icon2 from '../../assets/Oxfo/team-building.png';
 import Icon3 from '../../assets/Oxfo/consultation.png';
 import Icon4 from '../../assets/Oxfo/quality-assurance.png';
+import journey from '../../assets/Oxfo/Journey Map.png';
 import Mobileswitcher from '../../components/Mobileswitcher';
 import cl1 from '../../assets/Oxfo/Sticker board.png';
 import cl2 from '../../assets/Oxfo/component library.png';
@@ -125,6 +126,16 @@ const Oxfo = () => {
                             </div>
                             <br/>
                             <br/>
+                            <div className="heding">The Making of Oxfo</div>
+                            <p>
+                                From the data I collected, I created an ideal user flow as how I imagined the website to pan out and what my desired user experience would entail.This evolved into an experience map, illustrating the user's journey and emotions at every step on the site.
+                            </p>
+                            <div className="typo2">
+                                <img src={journey} alt=""/>
+                            </div>
+                            <p>
+                                From here, I could decide what actions and features were crucial and beneficial, and select a list of pages around these conclusions My goal was to craft a seamless experience for my target users by prioritizing simplicity while maintaining a balance between visualization and clarity.
+                            </p>
                             <span style={{fontWeight: "500",  fontSize: "20px"}}>Marketing plan</span>
                             <p>
                                 I was also lucky enough to plan the marketing strategy for Oxfo. Scouring through LinkedIn I've came to the conclution that people require informative posts and blogs to be convinced in a platform. 
