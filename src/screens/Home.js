@@ -132,7 +132,6 @@ function Home() {
                     lazyLoad={true}
                     infinite={true}
                     speed={500}
-                    slidesToShow={2}
                     nextArrow={<SampleArrow />}
                     prevArrow={<SampleArrow />}
                 >

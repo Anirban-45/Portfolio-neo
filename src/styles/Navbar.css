@@ -47,9 +47,18 @@
     margin-left: 20px;
   }
 }
-.navbar-container .navbar-logo img {
-  width: 50px;
+.navbar-container .navbar-logo .logo {
+  width: 110px;
   margin-right: 15px;
+}
+.navbar-container .navbar-logo .logo:hover {
+  cursor: pointer;
+  width: 125px;
+}
+@media only screen and (max-width: 426px) {
+  .navbar-container .navbar-logo .logo {
+    width: 90px;
+  }
 }
 .navbar-container .navbar-item {
   padding: 30px;

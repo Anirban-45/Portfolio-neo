@@ -7,3 +7,21 @@
     visibility: hidden;
   }
 }
+.shero {
+  padding-top: 120px;
+}
+.shero .typo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shero .typo img {
+  width: 52vw;
+}
+@media only screen and (max-width: 1024px) {
+  .shero .typo img {
+    width: 77vw;
+  }
+}

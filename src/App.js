@@ -10,6 +10,7 @@ import Beditor from './screens/Projects/Beditor'
 import Jatayat from './screens/Projects/Jatayat'
 import Medibee from './screens/Projects/Medibee'
 import Lily from './screens/Projects/Lily'
+import Safewheel from './screens/Projects/Safewheel';
 import Oxfo from './screens/Projects/Oxfo'
 
 import Contact from './screens/Contact'
@@ -43,6 +44,7 @@ function App() {
                     <Route path="/work/jatayat" element={<Jatayat/>} />
                     <Route path="/work/medibee" element={<Medibee/>} />
                     <Route path="/work/lily" element={<Lily/>} />
+                    <Route path="/work/safewheel" element={<Safewheel/>} />
                     <Route path="/work/oxfo" element={<Oxfo/>} />
 
                 </Routes>
