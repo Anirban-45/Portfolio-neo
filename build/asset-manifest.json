@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a7c9018.css",
-    "main.js": "/static/js/main.8b757cf3.js",
+    "main.css": "/static/css/main.648b4d4d.css",
+    "main.js": "/static/js/main.b5c927e4.js",
     "static/media/LLD.png": "/static/media/LLD.83ab9a399c90e475638c.png",
     "static/media/Oxfo.png": "/static/media/Oxfo.fdfae5be3e82084d3d49.png",
     "static/media/mlibrary.jpg": "/static/media/mlibrary.bf812e4fffb926156326.jpg",
@@ -27,13 +27,14 @@
     "static/media/cpt.jpg": "/static/media/cpt.eac02aa4f4423360e8b0.jpg",
     "static/media/Journey Map.png": "/static/media/Journey Map.5b8eacc41ea57aaa347b.png",
     "static/media/Brand.png": "/static/media/Brand.a32ecab9df8a218f057f.png",
+    "static/media/Beditor face.png": "/static/media/Beditor face.608c2aa0293e4feb00e1.png",
     "static/media/Jatayat Mockup.jpeg": "/static/media/Jatayat Mockup.64384ad387afd4f8543b.jpeg",
+    "static/media/Affinity Mapping.png": "/static/media/Affinity Mapping.6026284dda9c35dd333c.png",
     "static/media/Checkout.png": "/static/media/Checkout.805ab1f6eae57a1a1aab.png",
     "static/media/Mockup.png": "/static/media/Mockup.052310b2babb48700cfe.png",
     "static/media/Empathy map.png": "/static/media/Empathy map.1570c49885d9ce6a9dd0.png",
     "static/media/about-image.jpg": "/static/media/about-image.f8d261c9faa42f864c0e.jpg",
     "static/media/Login.png": "/static/media/Login.c1d41f00dcf16fd3186d.png",
-    "static/media/Beditor face.png": "/static/media/Beditor face.1c03f1fc81dcb67c35c0.png",
     "static/media/Beditor 1.png": "/static/media/Beditor 1.ac26290111a6891047e0.png",
     "static/media/component library.png": "/static/media/component library.95445d950f32035df6dc.png",
     "static/media/Business Model Canvas.jpg": "/static/media/Business Model Canvas.685a5eba9c78ffd6b4dc.jpg",
@@ -64,11 +65,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.6a7c9018.css.map": "/static/css/main.6a7c9018.css.map",
-    "main.8b757cf3.js.map": "/static/js/main.8b757cf3.js.map"
+    "main.648b4d4d.css.map": "/static/css/main.648b4d4d.css.map",
+    "main.b5c927e4.js.map": "/static/js/main.b5c927e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a7c9018.css",
-    "static/js/main.8b757cf3.js"
+    "static/css/main.648b4d4d.css",
+    "static/js/main.b5c927e4.js"
   ]
 }
