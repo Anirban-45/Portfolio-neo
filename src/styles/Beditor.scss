@@ -31,6 +31,18 @@
     @media only screen and (max-width: 426px) {
         @include margin-lr(30px);
     }
+
+    .typo{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        @include flex-align;
+        img{
+            width: 52vw;
+            @media only screen and (max-width: 1024px){
+                width: 77vw;
+            }
+        }
+    }
 }
 
 .heding {
@@ -75,7 +87,6 @@
     table {
         border: 1px solid;
         width: 800px;
-        text-align: center;
         border-collapse: collapse;
         border-spacing: 0;
 

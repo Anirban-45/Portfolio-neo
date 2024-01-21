@@ -47,6 +47,21 @@
     margin-right: 30px;
   }
 }
+.bhero .typo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bhero .typo img {
+  width: 52vw;
+}
+@media only screen and (max-width: 1024px) {
+  .bhero .typo img {
+    width: 77vw;
+  }
+}
 
 .heding {
   font-family: "Urbanist", sans-serif;
@@ -87,7 +102,6 @@
 .des-def table {
   border: 1px solid;
   width: 800px;
-  text-align: center;
   border-collapse: collapse;
   border-spacing: 0;
 }

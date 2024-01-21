@@ -5,6 +5,7 @@ import face from '../../assets/Beditor face.png';
 import set from '../../assets/settings.png';
 import b1 from '../../assets/Beditor 1.png';
 import b2 from '../../assets/Beditor 2.png';
+import affinity from '../../assets/Affinity Mapping.png';
 import Mobileswitcher from '../../components/Mobileswitcher.js';
 
 function Beditor() {
@@ -24,17 +25,23 @@ function Beditor() {
                             <a href='#Section3'>Goals</a>
                             <a href='#Section4'>Strategy</a>
                             <a href='#Section5'>Research</a>
-                            <a href='#Section6'>Define & Design</a>
+                            <a href='#Section6'>Define</a>
+                            <a href='#Section7'>Design Breakdown</a>
                         </>
                     }
                     Title= "Beditor"
                     Subtitle= "A Text editor for casual writing exercise."
-                    Overview= {<>Writings have been constructed and valued, as it is a way of formulating data in numerous ways. As a growing passion for constructive writing and coming from a Code oriented background, this was my first personal project to build a proper consistent text editor. <span style={{fontWeight: "700"}}>This was focused on casual writing and journal-making capability.</span></>}
+                    Overview= {
+                        <>
+                            Writings have been constructed and valued, as it is a way of formulating data in numerous ways. As a growing passion for constructive writing and coming from a Code oriented background, this was my first personal project to build a proper consistent text editor. <span style={{fontWeight: "700"}}>This was focused on casual writing and journal-making capability.</span>
+                        </>}
                     Details=
                     {
                         <>
                             <span style={{fontWeight: "500"}}>Role:</span> UI/UX designer<br/>
-                            <span style={{fontWeight: "500"}}>Duration:</span> 3 weeks
+                            <span style={{fontWeight: "500"}}>Duration:</span> 3 weeks + 2 weeks
+
+                            <p>This project was done in two steps. I have re-iterated the wholw journey afterwards. The second Iteration is marked in the case study.</p>
                         </>
                      }
                     Objective=
@@ -59,7 +66,7 @@ function Beditor() {
                                     <span>Strategies for solving</span>
                                 </div>
                                 <p style={{lineHeight: "30px"}}>
-                                    So, for opting into this project I needed to understand what are the core things that people want to prioritize in their writing tools. Firstly a small audit is needed to check out what the other tools and platforms offer. A few articles in medium would also help us to catch a few customer personas. Then After listing the functionalities we can incorporate them into our designs. <br/><br/>
+                                    So, for opting into this project I needed to understand what are the core things that people want to prioritize in their writing tools. Firstly a small audit is required to check out what the other tools and platforms offer. A few articles in medium would also help us to catch a few customer personas. Then After listing the functionalities we can incorporate them into our designs. <br/><br/>
                                     We need to be intuitive about the interfaces and how the functionalities interact and follow each other. Finally, design the components to format in the prototype.
                                 </p>
                             </div>
@@ -67,12 +74,28 @@ function Beditor() {
                                 <div className="research">
                                     <div className="research-title heding">Research</div>
                                     <p style={{lineHeight: "25px"}}>As per the research plans, I first audited the other text editors' features. So, I sought 6 to 8 applications and listed out the most make-or-break features that they offered with respect to the customers and their documents. The most important feature that was provided by them were, <br/>- Outlines <br/>- Docment details <br/>- Markdown support <br/>- Hemmingway mode </p>
+
+                                    <span style={{fontWeight: "300",  fontSize: "12px", color: "grey"}}>Second iteration</span>
+                                    <div>
+                                        Following that, I conducted interviews with content writers, gathering feedback on features that support them and identifying areas that could be improved. I translated this data into an affinity map.
+                                    </div>
+                                    <div className='typo'>
+                                        <img src={affinity} alt=""/>
+                                    </div>
+
                                     <span style={{fontWeight: "500",  fontSize: "20px"}}>Marketplace analysis</span>
-                                    <p style={{lineHeight: "25px"}}>The next thing is what the marketplace users require and what they need. In these sorts of writing tools, the users want a seamless experience in editing documents. This means any sort of clutter on the screen is going to be an issue. Therefore a mode of less Ui would be necessary. Secondly, a mode of statistics in the document is always very helpful for the user. Breaking the document into readability and grammatical correctness to give a full analysis of the text should be a really good plus point. Different language support is absolutely necessary but coding in the grammatical analysis for each and every language would be a very hard-to-achieve task. <br/> Alongside all of this, the highlight and external link support are very useful as users mention. The highlights could be incorporated in the outline to provide a thorough fragmentation of the document. In the end, the folder structure of the document must be upfront to the user as he/she can edit multiple documents side by side concurrently.</p>
+                                    <p style={{lineHeight: "25px"}}>
+                                        The next thing is what the marketplace users require and what they need. In these sorts of writing tools, the users want a seamless experience in editing documents. This means any sort of clutter on the screen is going to be an issue. Therefore a mode of less Ui would be necessary. Secondly, a mode of statistics in the document is always very helpful for the user. Breaking the document into readability and grammatical correctness to give a full analysis of the text should be a really good plus point. Different language support is absolutely necessary but coding in the grammatical analysis for each and every language would be a very hard-to-achieve task. 
+                                    </p> 
+                                    
+                                    <p> 
+                                        Alongside all of this, the highlight and external link support are very useful as users mention. The highlights could be incorporated in the outline to provide a thorough fragmentation of the document. In the end, the folder structure of the document must be upfront to the user as he/she can edit multiple documents side by side concurrently.
+                                    </p>
                                 </div>
                                 <div className="des-def">
-                                    <div className="heding">Define and Design</div>
+                                    <div className="heding">Define</div>
                                     <p>Based on the solution and processes I have the application architecture in mind. And it can be defined as the following:</p>
+                                    <span style={{fontWeight: "300",  fontSize: "12px", color: "grey"}}>Edit on second iteration</span>
                                     <table>
                                         <tr>
                                             <td>Text editor space</td>
@@ -90,8 +113,21 @@ function Beditor() {
                                             <td>Document statistics</td>
                                             <td>Document stats can be accessed through a button on the bottom right corner</td>
                                         </tr>
+                                        <tr>
+                                            <td>Word selection (spellcheck)</td>
+                                            <td>After selecting a highlighted word It should open a menu of two states depending on the correctness of the word</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Comments</td>
+                                            <td>Comments can be added to the document by selecting on highlighted portins of the document</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Insertion</td>
+                                            <td>External link, Tables & Images should be added to the document by accessing the menu</td>
+                                        </tr>
                                     </table>
                                     <p>Firstly lets look at the main view of the editor in the prototype.</p>
+                                    <div className="heding">Design Breakdown</div>
                                     <img src={b1} alt=""/>
                                     <p>Then let's focus onto the sidebar as it is a very crucial part of the application.</p>
                                     <img src={b2} alt=""/>
