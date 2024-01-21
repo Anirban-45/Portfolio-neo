@@ -37,7 +37,7 @@ function Work() {
                 isNew={true}
                 reverse={false}
                 url="/work/safewheel"
-                description="Medibee is a course management platform for medical students of Bangladesh. Itprovides curated courses and outlines to help one in their MBBS"
+                description="Safewheel is a healthcare E-commerce platform which cares about more than just products. It broadens to encompass a knowledge ecosystem and community "
             />
             <Pcard
                 image={Lily}
