@@ -41,7 +41,7 @@ function Beditor() {
                             <span style={{fontWeight: "500"}}>Role:</span> UI/UX designer<br/>
                             <span style={{fontWeight: "500"}}>Duration:</span> 3 weeks + 2 weeks
 
-                            <p>This project was done in two steps. I have re-iterated the wholw journey afterwards. The second Iteration is marked in the case study.</p>
+                            <p>The project was executed in two steps. I have re-iterated the whole journey afterwards. The second iteration is marked in the case study.</p>
                         </>
                      }
                     Objective=
