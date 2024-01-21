@@ -8,7 +8,10 @@
   }
 }
 .shero {
-  padding-top: 120px;
+  padding-top: 40px;
+}
+.shero .goals {
+  display: none !important;
 }
 .shero .typo {
   margin-top: 40px;
@@ -23,5 +26,39 @@
 @media only screen and (max-width: 1024px) {
   .shero .typo img {
     width: 77vw;
+  }
+}
+.shero .atom {
+  padding: 24px;
+  margin-top: 20px;
+  background-color: #264653;
+  color: white;
+  font-size: 17.5px;
+  line-height: 170%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.shero .atom img {
+  width: 40px;
+}
+.shero .Focus {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 30px 0px 40px 0px;
+}
+.shero .Focus .title {
+  font-size: 17px;
+  font-weight: 600;
+}
+.shero .Focus .empathy {
+  width: 25vw;
+}
+@media only screen and (max-width: 1024px) {
+  .shero .Focus .empathy {
+    width: 36vw;
   }
 }

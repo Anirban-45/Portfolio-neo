@@ -6,7 +6,7 @@ import research from '../assets/research.png';
 import product from '../assets/growth.png';
 import development from '../assets/development.png';
 import Card from '../components/Card';
-import Jatayat from '../assets/Jatayat ag.jpg';
+import Safewheel from '../assets/Safewheel ag.jpg';
 import Medibee from '../assets/Medibee ag.jpg';
 import {useNavigate} from 'react-router-dom';
 // import { FaChevronRight } from "react-icons/fa6";
@@ -93,8 +93,8 @@ function Home() {
                     <input className='browse' type="submit" onClick={() => navigate("/work")} value="Browse all projects" />
                 </div>
                 <div className="projs">
-                    <div className="view-1" onClick={() => navigate("/work/jatayat")}>
-                        <img src={Jatayat} alt=""/>
+                    <div className="view-1" onClick={() => navigate("/work/safewheel")}>
+                        <img src={Safewheel} alt=""/>
                         <p>View project</p>
                         <div className="fancy-shape-bt">
                             <div className="fancy-shape-bt-1">

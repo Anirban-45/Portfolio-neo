@@ -2,7 +2,7 @@ import React from 'react';
 import Pcard from '../components/Projectcard'
 import Beditor from '../assets/Beditor Mockup.jpeg'
 import Jatayat from '../assets/Jatayat Mockup.jpeg'
-import Medibee from '../assets/Medibee Mockup.jpeg'
+import SafeWheel from '../assets/Safewheel/Mockup.png'
 import Oxfo from '../assets/Oxfo Mockup.jpg';
 import Lily from '../assets/Lily/WorkFrame.png'
 import Workicon from '../assets/planing.png'
@@ -32,28 +32,28 @@ function Work() {
                 description="Oxfo is a remotwly worked full stack engineering platform who brings real world ideas into life."
             />
             <Pcard
+                image={SafeWheel}
+                title="SafeWheel Redesign"
+                isNew={true}
+                reverse={false}
+                url="/work/safewheel"
+                description="Medibee is a course management platform for medical students of Bangladesh. Itprovides curated courses and outlines to help one in their MBBS"
+            />
+            <Pcard
                 image={Lily}
                 title="Lily Social Commerce"
                 isNew={false}
-                reverse={false}
+                reverse={true}
                 url="/work/lily"
                 description="Lily Social Commerce is a social commerce platform for selling and buying Customizable designer Attires."
             />
             <Pcard
                 image={Jatayat}
                 title="Jatayat"
-                isNew={true}
-                reverse={true}
-                url="/work/jatayat"
-                description="Jatayat was a mobile application for any road activities and bus services related to Dhaka."
-            />
-            <Pcard
-                image={Medibee}
-                title="Medibee"
                 isNew={false}
                 reverse={false}
-                url="/work/medibee"
-                description="Medibee is a course management platform for medical students of Bangladesh. It provides curated courses and outlines to help one in their MBBS"
+                url="/work/jatayat"
+                description="Jatayat was a mobile application for any road activities and bus services related to Dhaka."
             />
             <Pcard
                 image={Beditor}
