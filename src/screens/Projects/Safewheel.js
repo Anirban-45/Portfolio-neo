@@ -38,6 +38,7 @@ const Safewheel = () => {
                             <a href='#Section4'>Information architecture</a>
                             <a href='#Section6'>Design system</a>
                             <a href='#Section7'>Final design</a>
+                            <a href='#Section8'>Results</a>
                         </>
                     }
                     Title="Safewheel Redesign" 
@@ -172,33 +173,99 @@ const Safewheel = () => {
                             </div>
                             <div className='heding'>Final Design</div>
                             <span style={{fontWeight: "500",  fontSize: "20px"}}>Home</span>
+                            <p>
+                                The homepage received the most dedicated attention in terms of UI design. The product categories and card had a total rehaul. Product generics were removed to optimize space utilization. External buttons were replaced with a prominent blog component, ensuring that new users immediately recognize the availability of a comprehensive health information blog upon joining the application.
+                                <br/><br/>
+                                The searchbar was design to be as prominent as possible. The indexes had a consistent look and feel while clearly indicationg the price of the product. An additional marketing space was allocated at the search index page for a proportionate look.
+                            </p>
                             <div className="typo">
                                 <img src={home} alt=""/>
                             </div>
+                            <p>
+                                The sidebar was specially designed to emphasize the wallet feature. Users get excited when they can see additional currency that they may use.
+
+                                <br/><br/>
+                                Numbers are beautiful and draw our focus towards them. So, using contrasting and brand colors was a no-brainer. The icons are all kept consistent even through the tree view.
+                            </p>
                             <span style={{fontWeight: "500",  fontSize: "20px"}}>Authentication</span>
+                            <p>
+                                In our market analysis, we noticed that companies simplified their authentication processes. To stay competitive, we adopted a similar strategy by removing passwords, relying on a phone number and OTP for verification. We also integrated a referral code option for on-site benefits like wallet credits and coupons.
+                            </p>
                             <div className="typo">
                                 <img src={login} alt=""/>
                             </div>
                             <span style={{fontWeight: "500",  fontSize: "20px"}}>Browsing</span>
+                            <p>
+                                Browsing on the previous website was meticulous and boring. We needed to introduce attention-grabbing elements and variations in products to keep users engaged.
+                                <br/><br/>
+                                Although keeping customers engaged within an application is a dark side of UX, it's evident that medicines aren't the type of products users are inclined to browse for hours. Since we have a lot more to offer than just medicines, it's crucial to portray our complete services through quirky banners and intriguing offers.
+                            </p>
+                            <p>
+                                The product page featured alternative medicines for user selection. Product details were revamped with appropriate and aesthetically pleasing icons, and product variants were upgraded to a more visually appealing tab view. 
+                                <br/><br/>
+                                I observed that when users scroll down the page, the price details get lost. To address this, a bottom sheet was added to the page, ensuring users can view their price details at all times.
+                            </p>
                             <div className="typo">
                                 <img src={browse} alt=""/>
                             </div>
+                            <p>
+                                The cart is where a few determinig factors reside. It would be a turnoff for the users if they can not browse products before logging in. To address this, the "Proceed to checkout" button on the cart prompts the user to sign up first.
+                            </p>
+                            <p>
+                                Additionally, the coupon feature has been integrated into the checkout page, ensuring users can apply their coupon codes before placing their orders.
+                            </p>
                             <span style={{fontWeight: "500",  fontSize: "20px"}}>Checkout</span>
+                            <p>
+                                Recognizing that checkout was a large and complex task, we designed the checkout page to be as user-friendly as possible. Address insertion was facilitated, but also accessible once the address was added in the profile. Prescription insertion was made possible here, especially for prescribe-only medicines. Users were provided with a view of coupons to keep track of available discounts.
+                                <br/><br/>
+                                Safecash access was stacked over the payment method for users convenience.
+                            </p>
                             <div className="typo">
                                 <img src={checkout} alt=""/>
                             </div>
                             <span style={{fontWeight: "500",  fontSize: "20px"}}>Profile Page</span>
+                            <p>
+                                The profile page was carefully designed for users to input their details. A referral button is available for users to share their referral code. Inserting an address is a crucial step to receive delivery, and users can add addresses from this page. We've provided the option for users to enter addresses manually or import them from Google Maps.
+                            </p>
                             <div className="typo">
                                 <img src={profile} alt=""/>
                             </div>
                             <span style={{fontWeight: "500",  fontSize: "20px"}}>History & Wallet</span>
+                            <p>
+                                For me the history was the most dificult to design. And to be honest the first iteration was too overwhelming. There was too many data to work with and the execution was inconvenient.
+                            </p>
+                            <p>
+                                After a thorough review, I created cards for each entry to display essential details and incorporated buttons for accessing the details page and tracking the order status in real-time. The re-order feature was added to the details page, redirecting users to the cart, not the checkout, allowing them to edit and add items to the order again.
+                            </p>
                             <div className="typo">
                                 <img src={history} alt=""/>
                             </div>
+                            <p>
+                                The wallet, also known as Safecash, was a highly ambitious feature. It operated on its own credit system directly linked to user expenses. Cashback, refunds, and discounts were seamlessly integrated into the wallet. Furthermore, it included an agent scheme allowing withdrawals in real currency.
+                                <br/><br/>
+                                Following is the complete model of the wallet decide by UX perspective.<br/>
+                                <a href="https://docs.google.com/document/d/1ALMtBWqL0451VL6F2z2TEaPDFLdXxmgpgo5qeg040Gc/edit?usp=sharing">Safecash Model</a>
+                            </p>
                             <span style={{fontWeight: "500",  fontSize: "20px"}}>Blog</span>
+                            <p>
+                                The blog was designed to be straightforward with detailed and informative content. Its well-organized design is easy to understand. A featured section on the blog homepage highlights the most popular posts. Additionally, a comment section has been incorporated on the blog post page, enabling users to leave comments.
+                            </p>
                             <div className="typo">
                                 <img src={blog} alt=""/>
                             </div>
+                            <div className='heding'>Results and Takeaway</div>
+                            <p>
+                                Design handover posed a challenge for this project, given the relatively young age of the developers and the sheer size of the project, making it difficult to track in one view. I addressed this by exporting views onto Zeplin and prototyping the entire application in InVision. Each skeleton and component were individually extracted and presented to the developers. The application was ultimately built with Flutter, for both native and iOS platforms.
+                            </p>
+                            <p>
+                                Approximately 85% of the design was successfully implemented in the application, with 75% for the website. User feedback played a crucial role in refining and iterating the design further, contributing to a highly successful execution.
+                            </p>
+                            <span style={{fontWeight: "500",  fontSize: "20px"}}>Some Key Takeaways:</span>
+                            <ul>
+                                <li><strong>The best designs comes from collaboration.</strong> It was inspiring to witness how each person brought a unique perspective to the table during the sketching sessions. I observed that non-technical individuals unleash limitless ideas due to their lack of technical constraints, while technical minds provide a grounded perspective, serving as a valuable sounding board for what is realistically achievable.</li>
+                                <li><strong>Incorporate engineering upfront.</strong> This proactive approach minimizes the need for rework later on, as an upfront understanding of technical limitations informs and shapes the design strategy.</li>
+                                <li><strong>Emphasize the problem.</strong> At the end of the day, you are addressing the pains of your users, so keeping their needs at the forefront is crucial. It's easy to lose sight of this when immersed in day-to-day tasks.</li>
+                            </ul>
                         </>
                     }
                 />   
