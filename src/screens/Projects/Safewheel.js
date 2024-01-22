@@ -4,7 +4,7 @@ import '../../styles/Safewheel.css';
 import face from '../../assets/Safewheel/Frame 1.png';
 import nb from '../../assets/Safewheel/problems.png';
 import uj from '../../assets/Safewheel-uj.jpg';
-// import persona1 from '../../assets/Safewheel/User Persona 1.png';
+import persona1 from '../../assets/Safewheel/User Persona 1.png';
 // import persona2 from '../../assets/Safewheel/User Persona 2.png';
 import em from '../../assets/Safewheel/Empathy map.png';
 import market from '../../assets/Safewheel/market.png';
@@ -109,10 +109,12 @@ const Safewheel = () => {
                                 These user stories gave us a good overview of what we needed to pull off. However, I was still concerned about designers or developers bias. which is why we created a few user personas and about 10 peoples were invited to the office. 
                             </p>
 
-                            {/* <div className='typo'>
+                            <div style={{display: "flex", flexDirection: "column", gap: "8px", alignItems: "flex-end"}} className='typo'>
                                 <img src={persona1} alt=""/>
+                                <span style={{fontWeight: "300", fontSize: "12.5px", color: "grey"}}>One of the User Personas</span>
+                                
                             </div>
-                            <div className='typo'>
+                            {/* <div className='typo'>
                                 <img src={persona2} alt=""/>
                             </div> */}
 

@@ -71,7 +71,7 @@ function Medibee() {
                             <div className="des-def">
                                 <div className="heding">Define</div>
                                 <p style={{lineHeight: "25px"}}>For defining the whole work process I had to imagine a User journey. As It is a fairly large project defining the roadmap was necessary. The key module features are projected with the darker blue rectangles which then branches out to their smaller services. </p>
-                                <span style={{fontWeight: "500",  fontSize: "20px"}}>User Journey</span>
+                                <span style={{fontWeight: "500", fontSize: "20px"}}>User Journey</span>
                                 <div className="user-journey">
                                     <img src={uj} alt=""/>
                                 </div>

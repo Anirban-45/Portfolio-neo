@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.648b4d4d.css",
-    "main.js": "/static/js/main.88c9fa0a.js",
+    "main.js": "/static/js/main.d448cd63.js",
     "static/media/LLD.png": "/static/media/LLD.83ab9a399c90e475638c.png",
     "static/media/Oxfo.png": "/static/media/Oxfo.fdfae5be3e82084d3d49.png",
     "static/media/mlibrary.jpg": "/static/media/mlibrary.bf812e4fffb926156326.jpg",
@@ -26,6 +26,7 @@
     "static/media/Jatayat proto1.png": "/static/media/Jatayat proto1.742c3431ed1248e7a0f9.png",
     "static/media/cpt.jpg": "/static/media/cpt.eac02aa4f4423360e8b0.jpg",
     "static/media/Journey Map.png": "/static/media/Journey Map.5b8eacc41ea57aaa347b.png",
+    "static/media/User Persona 1.png": "/static/media/User Persona 1.cbefdb445a53e16305ec.png",
     "static/media/Brand.png": "/static/media/Brand.a32ecab9df8a218f057f.png",
     "static/media/Beditor face.png": "/static/media/Beditor face.608c2aa0293e4feb00e1.png",
     "static/media/Jatayat Mockup.jpeg": "/static/media/Jatayat Mockup.64384ad387afd4f8543b.jpeg",
@@ -66,10 +67,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.648b4d4d.css.map": "/static/css/main.648b4d4d.css.map",
-    "main.88c9fa0a.js.map": "/static/js/main.88c9fa0a.js.map"
+    "main.d448cd63.js.map": "/static/js/main.d448cd63.js.map"
   },
   "entrypoints": [
     "static/css/main.648b4d4d.css",
-    "static/js/main.88c9fa0a.js"
+    "static/js/main.d448cd63.js"
   ]
 }
