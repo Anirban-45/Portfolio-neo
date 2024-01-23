@@ -18,29 +18,49 @@ import face1 from '../assets/Founder Image.png';
 function SampleArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <div
-        className={className}
-        style={{ 
-            ...style, 
-            display: "flex", 
-            alignItems: "center", 
-            justifyContent: "center", 
-            background: "#EFC958", 
-            color: "black", 
-            borderRadius: "50%", 
-            width: "27px", 
-            height: "27px", 
-            paddingTop: "3px", 
-            paddingRight: "2px", 
-            paddingLeft: "1px"
-        }}
-        onClick={onClick}
-      />
+        <div
+            className={className}
+            style={{ 
+                ...style, 
+                display: "flex", 
+                alignItems: "center", 
+                justifyContent: "center", 
+                background: "#EFC958", 
+                color: "black", 
+                borderRadius: "50%", 
+                width: "27px", 
+                height: "27px", 
+                paddingTop: "3px", 
+                paddingRight: "2px", 
+                paddingLeft: "1px"
+            }}
+            onClick={onClick}
+        />
     );
-  }
+}
+
 
 function Home() {
     window.scrollTo(0,0);
+    
+    const settings = {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        // lazyLoad: true,
+        dots: true,
+        infinite: true,
+        nextArrow:<SampleArrow />,
+        prevArrow:<SampleArrow />,
+        responsive: [
+            {
+                breakpoint: 768, // Change this to your desired breakpoint for tablet
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            }
+        ],
+    }
     const navigate = useNavigate();
     return(
         <div className="container">
@@ -128,12 +148,7 @@ function Home() {
                 <div className="layer-text">Testimonials</div>
                 <br/>
                 <Slider
-                    dots={true}
-                    lazyLoad={true}
-                    infinite={true}
-                    speed={500}
-                    nextArrow={<SampleArrow />}
-                    prevArrow={<SampleArrow />}
+                    {...settings}
                 >
                     <Testimonialcard
                         name="Faysal Islam"

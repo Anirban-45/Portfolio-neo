@@ -9,8 +9,10 @@
 }
 .testimonial-card {
   background-color: white;
+  position: relative;
   font-family: "DM Sans", sans-serif;
   box-shadow: 0 0 3px 2px rgb(203, 203, 203);
+  z-index: -999;
 }
 .testimonial-card .testimonial-header .photo {
   border-radius: 50%;

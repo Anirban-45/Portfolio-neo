@@ -24,6 +24,12 @@
     margin-right: 30px;
   }
 }
+@media only screen and (max-width: 376px) {
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 .container-front {
   display: flex;
   align-items: center;
@@ -161,6 +167,11 @@
     width: 360px;
   }
 }
+@media only screen and (max-width: 376px) {
+  .container-front .container-text {
+    width: 320px;
+  }
+}
 .container-front .container-text .main-pg {
   font-size: 42px;
 }
@@ -245,6 +256,13 @@
     font-size: 13px;
   }
 }
+@media only screen and (max-width: 376px) {
+  .container-front .container-text p.desc-pg-1, .container-front .container-text .desc-pg-2 {
+    width: 320px;
+    margin-right: 0px;
+    line-height: 20px;
+  }
+}
 .container-front .container-text .colored-text-5 {
   color: #008170;
 }
@@ -280,7 +298,7 @@
 @media only screen and (max-width: 426px) {
   .container .layer-text {
     margin-top: 30px;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
   }
 }
@@ -301,11 +319,10 @@
   margin-top: 50px;
 }
 .container .work-layer .browse {
-  margin-bottom: 6px;
+  margin-bottom: 2px;
   width: 150px;
   height: 35px;
   border-radius: 25px;
-  margin-top: 20px;
   border-width: 0;
   padding: 5px;
   background-color: #EFC958;
@@ -349,6 +366,11 @@
 @media only screen and (max-width: 426px) {
   .container .projs .view-1 {
     width: 375px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .container .projs .view-1 {
+    width: 350px;
   }
 }
 .container .projs .view-1 p {
@@ -470,6 +492,12 @@
     width: 350px;
   }
 }
+@media only screen and (max-width: 376px) {
+  .container .projs .view-1 img {
+    position: static;
+    width: 322px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .container .projs .view-1 .fancy-shape-bt {
     display: none;
@@ -539,6 +567,11 @@
 @media only screen and (max-width: 426px) {
   .container .projs .view-2 {
     width: 375px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .container .projs .view-2 {
+    width: 350px;
   }
 }
 .container .projs .view-2 p {
@@ -658,6 +691,13 @@
     position: static;
     margin: 40px 10px 10px 10px;
     width: 350px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .container .projs .view-2 img {
+    position: static;
+    margin: 40px 10px 10px 10px;
+    width: 322px;
   }
 }
 @media only screen and (max-width: 768px) {
