@@ -13,6 +13,7 @@ import {useNavigate} from 'react-router-dom';
 import Slider from "react-slick";
 import face from '../assets/Founder Image-1.png';
 import face1 from '../assets/Founder Image.png';
+import face2 from '../assets/testimnial image3.jpg';
 
 
 function SampleArrow(props) {
@@ -157,17 +158,17 @@ function Home() {
                         content="I am very happy with the work that Anirban Has done in Safewheel. I love the design, and the understanding of technology could be a huge asset for any Startup. He really brings out a great dynamics within any team composition."
                     />
                     <Testimonialcard
+                        name="Najish Mahmud"
+                        image={face2}
+                        position="Software Engineer, TherapBD"
+                        content="Anirban is a sincere and responsive person when it comes to his responsibilities. I used to work with him during our internships. I was moved by how well he is able to grasp the user story of a product simply by just looking at the business model. A 10/10 guy to work with."
+                    />
+                    <Testimonialcard
                         name="Rafiq Islam"
                         image={face1}
                         position="Co-Founder & CEO, Safewheel"
                         content="Anirban is a really talented soul. The grasp on business model ideation as well as the product he has is quite impressive. I really liked the way he handled the information architecture in our website. I would highly recommend him."
                     />
-                    {/* <Testimonialcard
-                        name="Rafiq Islam"
-                        image={face1}
-                        position="Co-Founder & CEO, Safewheel"
-                        content="Anirban is a really talented soul. The grasp on business model ideation as well as the product he has is quite impressive. I really liked the way he handled the information architecture in our website. I would highly recommend him."
-                    /> */}
                 </Slider>
             </div>
         </div>
